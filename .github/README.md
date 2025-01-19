@@ -34,5 +34,8 @@
 > [!CAUTION]
 > This is very personalized so some things may not work for you
 
-> [!NOTE]
-> Just my personal configs based on this amazing dotfiles repo: https://github.com/Matt-FTW/dotfiles
+## Credits
+
+Just my personal configs based on this amazing dotfiles repo: https://github.com/Matt-FTW/dotfiles
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
