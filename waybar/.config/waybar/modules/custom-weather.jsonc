@@ -1,0 +1,29 @@
+/*{
+  "custom/weather": {
+    "exec-if": "which wttrbar",
+    "exec": "wttrbar --location Kolkata",
+    "restart-interval": 300,
+    "tooltip": true,
+    "format": "{}°",
+    "return-type": "json",
+    "on-click": "kitty --hold --class center-float fish -c 'wttr Kolkata'",
+    "on-click-right": "kitty --hold --class center-float fish -c 'wttr -v2 Kolkata'",
+    "on-click-middle": "xdg-open https://wttr.in/kolkata"
+  }
+}*/
+
+{
+  "custom/weather": {
+    "format": "{}",
+    "format-alt": "{alt}: {}",
+    "format-alt-click": "click",
+    "interval": 3600,
+    "return-type": "json",
+    "exec": "$HOME/.local/bin/weather.py",
+    "exec-if": "ping wttr.in -c1",
+    "tooltip": true,
+    "on-click": "kitty --hold --class center-float fish -c 'wttr -n Kolkata'",
+    "on-click-right": "kitty --hold --class center-float fish -c 'wttr -v2 Kolkata'",
+    "on-click-middle": "xdg-open https://wttr.in/kolkata",
+  },
+}

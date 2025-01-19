@@ -1,0 +1,173 @@
+{
+"hyprland/window": {
+  "format": "{}",
+  "min-length": 5,
+
+  // === Window Titles ===
+
+  "rewrite": {
+    // == Desktop ==
+
+    "":
+      "  Hyprland",
+
+    // == Terminal ==
+
+    "~": "  Terminal",
+    "bash": "  Terminal",
+    "zsh": "  Terminal",
+    "fish": "  Terminal",
+    "kitty": "  Terminal",
+    "rishav@archlinux:(.*)": "  Terminal",
+    "(.*)rishav@archlinux:~": "  Terminal",
+
+    // == Browser ==
+
+    "(.*)Mozilla Firefox":
+      "Firefox  󰈹",
+    "(.*) — Mozilla Firefox":
+      "Firefox  󰈹",
+
+      "(.*)Mozilla Firefox Private Browsing":
+      "Firefox  󰈹",
+    "(.*) — Mozilla Firefox Private Browsing":
+      "Firefox  󰈹",
+      "(.*)Thorium":
+      "Thorium  ",
+    "(.*) — Thorium":
+      "Thorium  ",
+
+    "(.*)Zen Browser":
+      "<span size='108%'>󰺕</span> Zen",
+    "(.*)Zen Browser Private Browsing":
+      "<span size='108%'>󰺕</span> Zen Incognito",
+    //"(.*) — Zen Browser":
+    //  "Zen Browser ",
+
+    // == Development ==
+
+    "(.*) - Visual Studio Code":
+      "<span foreground='#89b4fa'>󰨞 </span> $1",
+    "(.*)Visual Studio Code":
+      "<span foreground='#89b4fa'>󰨞 </span> Visual Studio Code",
+
+    "(.*) - VSCodium":
+      "Codium  ",
+    "(.*)VSCodium":
+      "Codium  ",
+
+    "Godot":
+      "<span foreground='#89b4fa'> </span> Godot Engine",
+    "Godot Engine - (.*)":
+      "<span foreground='#89b4fa'> </span> $1",
+    "(.*) - Godot Engine":
+      "<span foreground='#89b4fa'> </span> $1",
+
+    // == Media ==
+
+    "(.*)Spotify":
+      "  Spotify",
+    "(.*)Spotify Premium":
+      "  Spotify Premium",
+    "(.*)YouTube Music":
+      " YouTube Music",
+    "(.*) — YouTube Music":
+      " YoutTube Music",
+
+    "OBS(.*)":
+      " OBS Studio",
+
+    "VLC media player":
+      "<span foreground='#fab387'>󰕼 </span> VLC Media Player",
+    "(.*) - VLC media player":
+      "<span foreground='#fab387'>󰕼 </span> $1",
+
+    "GNU Image Manipulation Program":
+      "<span foreground='#a6adc8'> </span> GNU Image Manipulation Program",
+
+    "qView": "  qView",
+
+    "Eye of GNOME": " Images",
+
+    "(.*).jpg": "  $1.jpg",
+    "(.*).png": "  $1.png",
+    "(.*).svg": "  $1.svg",
+
+    "(.*).mkv": "<span size='130%' rise='0.7pt'>󰿎</span>  Media",
+    "(.*).mp4": "  Video",
+    "(.*).mp3": "  Music",
+
+    // == Social ==
+
+    "vesktop":
+      "<span foreground='#89b4fa'> </span> Discord",
+
+    "• Discord(.*)": "Discord$1",
+    "(.*)Discord(.*)":
+      "<span foreground='#89b4fa'> </span> $1Discord$2",
+
+    // == Documents ==
+
+    "ONLYOFFICE Desktop Editors":
+      "<span foreground='#f38ba8'> </span> OnlyOffice Desktop",
+
+    "(.*).docx":
+      "<span foreground='#89b4fa'> </span> $1.docx",
+    "(.*).xlsx":
+      "<span foreground='#a6e3a1'> </span> $1.xlsx",
+    "(.*).pptx":
+      "<span foreground='#fab387'> </span> $1.pptx",
+    "(.*).pdf":
+      "<span foreground='#f38ba8'> </span> $1.pdf",
+
+    //File Manager Nemo
+    "/": " Files",
+    "Home": "  ~",
+    "Desktop": " Desktop",
+    "Downloads": " Downloads",
+    "Documents": " Documents",
+    "Pictures": " Pictures",
+    "Music": " Music",
+    "Videos": " Videos ",
+    "walls": " Walls",
+    "Media": " Media",
+    "Trash": " Trash",
+    "Coding": " Coding",
+    ".config": " .config",
+    "dotfiles": " dotfiles",
+    "bin": "$! bin",
+
+    //File Manager yazi
+    "yazi ~": "  ~",
+    "Yazi: ~/": "  ~",
+    "Yazi: ~/Desktop": " Desktop",
+    "Yazi: ~/Downloads": " Downloads",
+    "Yazi: ~/Documents": " Documents",
+    "Yazi: ~/Pictures": " Pictures",
+    "Yazi: ~/Music": " Music",
+    "Yazi: ~/Videos": " Videos ",
+    "Yazi: ~/walls": " Walls",
+    "Yazi: ~/Media": " Media",
+    "Yazi: ~/Trash": " Trash",
+    "Yazi: ~/Coding": " Coding",
+    "Yazi: ~/.config": " .config",
+    "Yazi: ~/dotfiles": " dotfiles",
+    "Yazi: ~/.local/bin": "$! local/bin",
+
+    "(.*)— Dolphin":
+      " $1",
+
+
+    //WhatsApp
+    "(.*)ZapZap":
+    " WhatsApp",
+
+    // == System ==
+
+    "Timeshift-gtk":
+      "<span foreground='#a6e3a1'> </span> Timeshift",
+
+    "Authenticate": "  Authenticate"
+  }
+}
+}

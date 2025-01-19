@@ -1,0 +1,25 @@
+{
+  "include": [
+    "~/.config/waybar/modules/cpu.jsonc",
+    "~/.config/waybar/modules/memory.jsonc",
+    "~/.config/waybar/modules/custom-gpu-usage.jsonc",
+    "~/.config/waybar/modules/temperature-gpu.jsonc",
+    "~/.config/waybar/modules/temperature-cpu.jsonc",
+    "~/.config/waybar/modules/custom-logo.jsonc",
+    "~/.config/waybar/modules/custom-notifications.jsonc",
+    "~/.config/waybar/modules/hyprland-window.jsonc",
+    "~/.config/waybar/modules/hyprland-workspaces.jsonc",
+    "~/.config/waybar/modules/network.jsonc",
+  ],
+  "modules-left": ["custom/arch", "hyprland/workspaces"],
+  "modules-center": ["hyprland/window"],
+  "modules-right": [
+    "network",
+    "memory",
+    "cpu",
+    "temperature#cpu",
+    "custom/gpu-usage",
+    "temperature#gpu",
+    "custom/notifications",
+  ],
+}
