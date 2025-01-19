@@ -1,0 +1,67 @@
+#!/bin/bash
+
+# Directories
+wallpapers_dir="$HOME/.config/hypr/theme/walls/"
+non_cat_dir="$HOME/.config/hypr/theme/walls/non-cat/"
+
+RANDOM_PIC=$(find "${wallpapers_dir}" -type f \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" -o -name "*.gif" \) | shuf -n 1)
+RANDOM_PIC_2=$(find "${non_cat_dir}" -type f \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" -o -name "*.gif" \) | shuf -n 1)
+
+build_theme() {
+  rows=$1
+  cols=$2
+  icon_size=$3
+
+  echo "element{orientation:vertical;}element-text{horizontal-align:0.5;}element-icon{size:$icon_size.0000em;}listview{lines:$rows;columns:$cols;}"
+}
+
+theme="$HOME/.config/rofi/scripts/wallpaper/style.rasi"
+
+rofi_cmd="rofi -dmenu -i -show-icons -theme-str $(build_theme 4 3 7) -theme ${theme}"
+
+# Select a wallpaper from the list
+choice=$(
+  {
+    printf "%s\x00icon\x1f%s\n" "random" "$RANDOM_PIC"
+    printf "%s\x00icon\x1f%s\n" "non-cat" "$RANDOM_PIC_2"
+    ls --escape "$wallpapers_dir" |
+      while read -r A; do
+        echo -en "$A\x00icon\x1f$wallpapers_dir/$A\n"
+      done
+  } | $rofi_cmd
+)
+
+# Handle choice
+if [ "$choice" = "random" ]; then
+    ~/.local/bin/walls set "$RANDOM_PIC"
+    exit 1
+elif [ "$choice" = "non-cat" ]; then
+    non_cat_choice=$(
+      find "$non_cat_dir" -type f \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" -o -name "*.gif" \) |
+        while read -r A; do
+          echo -en "$(basename "$A")\x00icon\x1f$A\n"
+        done | $rofi_cmd
+    )
+    wallpaper="$non_cat_dir/$non_cat_choice"
+     wallpaper_path="$HOME/.config/hypr/theme/walls/non-cat/$choice"
+else
+    wallpaper="$wallpapers_dir/$choice"
+     wallpaper_path="$HOME/.config/hypr/theme/walls/$choice"
+fi
+
+ wallpaper_path="$HOME/.config/hypr/theme/walls/$choice"
+
+# Set the wallpaper using swww
+swww img "$wallpaper" \
+  --transition-bezier 0.5,1.19,.8,.4 \
+  --transition-type wipe \
+  --transition-duration 2 \
+  --transition-fps 75 && notify-send "Wallpaper Changed" -i "$wallpaper" --app-name=Wallpaper
+
+# Call the update index script to update the current wallpaper index
+~/.local/bin/walls u $wallpaper_path
+
+# Ensure the current wallpaper is updated in the system
+~/.local/bin/setcurwall
+
+exit 1
