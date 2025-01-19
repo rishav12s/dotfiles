@@ -1,0 +1,97 @@
+#!/usr/bin/bash
+
+# Directory containing wallpapers
+wall_dir="$HOME/.config/hypr/theme/walls"
+
+# File to store the current wallpaper index
+index_dir="$HOME/.config/hypr/theme/walls/.index"
+current_wall_index="$index_dir/current_wall_index"
+
+# Ensure the index directory exists
+mkdir -p "$index_dir"
+
+# Function to get the list of wallpapers
+get_wallpapers() {
+    fd --base-directory "$wall_dir" --type f . | sort -V -f
+}
+
+# Function to ensure the index file is consistent with the wallpaper list
+update_index_file() {
+    wallpapers=($(get_wallpapers))
+    if [ ! -f "$current_wall_index" ] || (( $(cat "$current_wall_index" 2>/dev/null || echo -1) >= ${#wallpapers[@]} )); then
+        echo -1 > "$current_wall_index"
+    fi
+}
+
+# Function to set wallpaper
+set_wallpaper() {
+    local wallpaper_path="$1"
+    swww img "$wallpaper_path" \
+        --transition-bezier 0.5,1.19,.8,.4 \
+        --transition-type wipe \
+        --transition-duration 2 \
+        --transition-fps 75 &&
+        notify-send "Wallpaper Changed" -i "$wallpaper_path" --app-name=Wallpaper &&
+        ~/.local/bin/setcurwall
+}
+
+# Update the index file before any action
+update_index_file
+
+# Determine the action
+case "$1" in
+    "r"|"random") # Random wallpaper
+        wallpapers=($(get_wallpapers))
+        random_index=$((RANDOM % ${#wallpapers[@]}))
+        echo "$random_index" > "$current_wall_index"
+        set_wallpaper "$wall_dir/${wallpapers[$random_index]}"
+        ;;
+    "n"|"next") # Next wallpaper
+        wallpapers=($(get_wallpapers))
+        current_index=$(cat "$current_wall_index" 2>/dev/null || echo -1)
+        ((current_index = (current_index + 1) % ${#wallpapers[@]}))
+        echo "$current_index" > "$current_wall_index"
+        set_wallpaper "$wall_dir/${wallpapers[$current_index]}"
+        ;;
+    "p"|"prev") # Previous wallpaper
+        wallpapers=($(get_wallpapers))
+        current_index=$(cat "$current_wall_index" 2>/dev/null || echo -1)
+        ((current_index = (current_index - 1 + ${#wallpapers[@]}) % ${#wallpapers[@]}))
+        echo "$current_index" > "$current_wall_index"
+        set_wallpaper "$wall_dir/${wallpapers[$current_index]}"
+        ;;
+    "u"|"update") # Update index for a given wallpaper path
+        wallpaper_path="$2"
+        if [ -f "$wallpaper_path" ]; then
+            wallpapers=($(get_wallpapers))
+            for index in "${!wallpapers[@]}"; do
+                if [[ "$wall_dir/${wallpapers[$index]}" == "$wallpaper_path" ]]; then
+                    echo "$index" > "$current_wall_index"
+                    exit 0
+                fi
+            done
+            echo "Error: Wallpaper not found in the list."
+        else
+            echo "Error: Invalid wallpaper path."
+        fi
+        ;;
+    "s"|"set") # Set a specific wallpaper
+        wallpaper_path="$2"
+        if [ -f "$wallpaper_path" ]; then
+            wallpapers=($(get_wallpapers))
+            for index in "${!wallpapers[@]}"; do
+                if [[ "$wall_dir/${wallpapers[$index]}" == "$wallpaper_path" ]]; then
+                    echo "$index" > "$current_wall_index"
+                    set_wallpaper "$wallpaper_path"
+                    exit 0
+                fi
+            done
+            echo "Error: Wallpaper not found in the list."
+        else
+            echo "Error: Invalid wallpaper path."
+        fi
+        ;;
+    *)
+        echo "Usage: $0 [r|next|prev|update <path>|set <path>]"
+        ;;
+esac

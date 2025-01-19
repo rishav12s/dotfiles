@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -rf ~/.cache/swww/wall.set
+
+ln -sf "$(head -n 1 ~/.cache/swww/eDP-1)" ~/.cache/swww/wall.set
