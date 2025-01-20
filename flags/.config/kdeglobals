@@ -1,0 +1,14 @@
+[General]
+TerminalApplication=kitty
+
+[Icons]
+Theme=Papirus
+
+[Colors:View]
+BackgroundNormal=#00000000
+
+[KDE]
+widgetStyle=kvantum
+
+[UiSettings]
+ColorScheme=*
