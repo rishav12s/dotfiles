@@ -1,0 +1,19 @@
+{
+  "bash-language-server": "5.4.3",
+  "codelldb": "v1.11.1",
+  "css-lsp": "4.10.0",
+  "css-variables-language-server": "2.7.0",
+  "cssmodules-language-server": "1.5.1",
+  "emmet-language-server": "2.6.1",
+  "html-lsp": "4.10.0",
+  "htmlhint": "1.1.4",
+  "js-debug-adapter": "v1.96.0",
+  "markdown-toc": "1.2.0",
+  "markdownlint-cli2": "0.17.2",
+  "prettier": "3.4.2",
+  "prettierd": "0.26.1",
+  "shellcheck": "v0.10.0",
+  "shfmt": "v3.10.0",
+  "stylelint": "16.13.2",
+  "stylua": "v2.0.2"
+}
