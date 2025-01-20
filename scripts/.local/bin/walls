@@ -1,10 +1,10 @@
 #!/usr/bin/bash
 
 # Directory containing wallpapers
-wall_dir="$HOME/.config/hypr/theme/walls"
+wall_dir="$HOME/Pictures/walls"
 
 # File to store the current wallpaper index
-index_dir="$HOME/.config/hypr/theme/walls/.index"
+index_dir="$HOME/Pictures/walls/.index"
 current_wall_index="$index_dir/current_wall_index"
 
 # Ensure the index directory exists

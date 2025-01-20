@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Directories
-wallpapers_dir="$HOME/.config/hypr/theme/walls/"
-non_cat_dir="$HOME/.config/hypr/theme/walls/non-cat/"
+wallpapers_dir="$HOME/Pictures/walls/"
+non_cat_dir="$HOME/Pictures/walls/non-cat/"
 
 RANDOM_PIC=$(find "${wallpapers_dir}" -type f \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" -o -name "*.gif" \) | shuf -n 1)
 RANDOM_PIC_2=$(find "${non_cat_dir}" -type f \( -name "*.jpg" -o -name "*.jpeg" -o -name "*.png" -o -name "*.gif" \) | shuf -n 1)
@@ -43,13 +43,11 @@ elif [ "$choice" = "non-cat" ]; then
         done | $rofi_cmd
     )
     wallpaper="$non_cat_dir/$non_cat_choice"
-     wallpaper_path="$HOME/.config/hypr/theme/walls/non-cat/$choice"
+     wallpaper_path="$HOME/Pictures/walls/non-cat/$choice"
 else
     wallpaper="$wallpapers_dir/$choice"
-     wallpaper_path="$HOME/.config/hypr/theme/walls/$choice"
+     wallpaper_path="$HOME/Pictures/walls/$choice"
 fi
-
- wallpaper_path="$HOME/.config/hypr/theme/walls/$choice"
 
 # Set the wallpaper using swww
 swww img "$wallpaper" \
