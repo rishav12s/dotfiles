@@ -35,30 +35,23 @@ $shell\
 $line_break\
 $character"""
 
-
-# Disable the blank line at the start of the prompt
 add_newline = true
 
-
-# Second param
 [hostname]
 ssh_only = true
-format = "[](fg:#252525 bg:none)[█](fg:#E8E3E3 bg:#252525)[$ssh_symbol$hostname](bold bg:#E8E3E3)[](fg:#E8E3E3 bg:none) "
+format = "[](fg:#303446 bg:none)[█](fg:#CAD3F5 bg:#303446)[$ssh_symbol$hostname](bold bg:#CAD3F5)[](fg:#CAD3F5 bg:none) "
 disabled = false
 
-# Third param
 [directory]
-format = "[](fg:#252525 bg:none)[$path]($style)[█](fg:#232526 bg:#232526)[](fg:#6791C9 bg:#252525)[ ](fg:#252525 bg:#6791C9)[](fg:#6791C9 bg:none)"
-style = "fg:#E8E3E3 bg:#252525 bold"
+format = "[](fg:#303446 bg:none)[$path]($style)[█](fg:#303446 bg:none)[](fg:#8AADF4 bg:#303446)[ ](fg:#303446 bg:#8AADF4)[](fg:#8AADF4 bg:none)"
+style = "fg:#CAD3F5 bg:#303446 bold"
 truncation_length = 3
 truncate_to_repo=false
 read_only = " "
 
-## SECOND LINE/ROW: Prompt
-# Prompt: param 2 └─
 [character]
-success_symbol = "[ ](#6791C9 bold)"
-error_symbol = "[ ](#B66467 bold)"
+success_symbol = "[ ](green bold)"
+error_symbol = "[ ](red bold)"
 
 [line_break]
 disabled = false
@@ -69,21 +62,20 @@ style = 'bold green'
 
 [cmd_duration]
 min_time = 1
-format = "[](fg:#252525 bg:none)[$duration]($style)[](fg:#252525 bg:#252525)[](fg:#C397D8 bg:#252525)[󱑂 ](fg:#252525 bg:#C397D8)[](fg:#C397D8 bg:none)"
+format = "[](fg:#303446 bg:none)[$duration]($style)[](fg:#303446 bg:#303446)[](fg:#C6A0F6 bg:#303446)[󱑂 ](fg:#303446 bg:#C6A0F6)[](fg:#C6A0F6 bg:none)"
 disabled = false
-style = "fg:#E8E3E3 bg:#252525 bold"
-
+style = "fg:#CAD3F5 bg:#303446 bold"
 
 [git_branch]
-format = "[](fg:#252525 bg:none)[$branch]($style)[](fg:#252525 bg:#252525)[](fg:#81C19B bg:#252525)[](fg:#252525 bg:#81C19B)[](fg:#81C19B bg:none) "
-style = "fg:#E8E3E3 bg:#252525"
+format = "[](fg:#303446 bg:none)[$branch]($style)[](fg:#303446 bg:#303446)[](fg:#A6DA95 bg:#303446)[](fg:#303446 bg:#A6DA95)[](fg:#A6DA95 bg:none) "
+style = "fg:#CAD3F5 bg:#303446"
 symbol = " "
 
 [git_status]
-format="[](fg:#252525 bg:none)[$all_status$ahead_behind]($style)[](fg:#252525 bg:#252525)[](fg:#6791C9 bg:#252525)[ ](fg:#252525 bg:#6791C9)[](fg:#6791C9 bg:none) "
-style = "fg:#E8E3E3 bg:#252525"
+format="[](fg:#303446 bg:none)[$all_status$ahead_behind]($style)[](fg:#303446 bg:#303446)[](fg:#8AADF4 bg:#303446)[ ](fg:#303446 bg:#8AADF4)[](fg:#8AADF4 bg:none) "
+style = "fg:#CAD3F5 bg:#303446"
 conflicted = "="
-ahead =	"⇡${count}"
+ahead = "⇡${count}"
 behind = "⇣${count}"
 diverged = "⇕⇡${ahead_count}⇣${behind_count}"
 up_to_date = " 󰄸 "
@@ -100,27 +92,20 @@ style = "green"
 
 [git_state]
 rebase = "REBASING"
-merge =	"MERGING"
+merge = "MERGING"
 revert = "REVERTING"
 cherry_pick = "CHERRY-PICKING"
 bisect = "BISECTING"
 am = "AM"
 am_or_rebase = "AM/REBASE"
-style =	"yellow"
+style = "yellow"
 format = '\([$state( $progress_current/$progress_total)]($style)\) '
-
-# # SYMBOLS
 
 [aws]
 symbol = "  "
 
 [conda]
 symbol = " "
-
-[dart]
-symbol = " "
-
-# [directory]
 
 [docker_context]
 symbol = " "
@@ -131,76 +116,13 @@ detect_files = ["docker-compose.yml", "docker-compose.yaml", "Dockerfile"]
 detect_folders = []
 disabled = false
 
-[elixir]
-symbol = " "
-
-[elm]
-symbol = " "
-
-[golang]
-symbol = " "
-
-[hg_branch]
-symbol = " "
-
-[java]
-symbol = " "
-
-[julia]
-symbol = " "
-
-[haskell]
-symbol = "λ "
-
-[memory_usage]
-symbol = " "
-
-[nim]
-symbol = " "
-
 [nix_shell]
 symbol = " "
-
-[package]
-symbol = " "
-
-[perl]
-symbol = " "
-
-[php]
-symbol = " "
-
-[python]
-symbol = " "
-#pyenv_version_name = true
-format = 'via [${symbol}python (${version} )(\($virtualenv\) )]($style)'
-style = "bold yellow"
-pyenv_prefix = "venv "
-python_binary = ["./venv/bin/python", "python", "python3", "python2"]
-detect_extensions = ["py"]
-version_format = "v${raw}"
-
-[ruby]
-symbol = " "
-
-[rust]
-symbol = " "
-
-[scala]
-symbol = " "
 
 [shlvl]
 symbol = " "
 
-[swift]
-symbol = "ﯣ "
-
-[nodejs]
-format = "via [ Node.js $version](bold green) "
-detect_files = ["package.json", ".node-version"]
-detect_folders = ["node_modules"]
-
-# Other languages configurations:
+# Language configurations:
 c.disabled = true
 cmake.disabled = true
 haskell.disabled = true
