@@ -1,0 +1,367 @@
+2025-01-23 12:06:44.499 Info Main: Application path: /app/emby/system/EmbyServer.dll
+2025-01-23 12:06:44.770 Info App: Setting default culture to en-US
+2025-01-23 12:06:44.774 Info Main: Emby Server 4.9.0.30
+	Command line: /app/emby/system/EmbyServer.dll -programdata /config -ffdetect /app/emby/bin/ffdetect -ffmpeg /app/emby/bin/ffmpeg -ffprobe /app/emby/bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 6.12.10-zen1-1-zen (linux-zen@archlinux) (gcc (GCC) 14.2.1 20240910, GNU ld (GNU Binutils) 2.43.1) #1 ZEN SMP PREEMPT_DYNAMIC Sat, 18 Ja
+	OS/Process: x64/x64
+	Framework: .NET 8.0.6
+	Runtime: app/emby/system/System.Private.CoreLib.dll
+	Processor count: 8
+	Data path: /config
+	Application path: /app/emby/system
+2025-01-23 12:06:44.774 Info Main: Logs path: /config/logs
+2025-01-23 12:06:44.774 Info Main: Cache path: /config/cache
+2025-01-23 12:06:44.774 Info Main: Internal metadata path: /config/metadata
+2025-01-23 12:06:44.774 Info Main: DefaultThreadCurrentCulture: en-US
+2025-01-23 12:06:44.774 Info Main: DefaultThreadCurrentUICulture: en-US
+2025-01-23 12:06:44.774 Info Main: DefaultThreadCurrentUICulture: en-US
+2025-01-23 12:06:44.780 Info Main: Local time: 1/23/2025 12:06:44 PM +05:30
+2025-01-23 12:06:44.787 Info App: Emby Server Version: 4.9.0.30
+2025-01-23 12:06:44.788 Info App: Loading assemblies
+2025-01-23 12:06:44.813 Info App: File /config/plugins/AudioDb.dll has version 1.0.18.0
+2025-01-23 12:06:44.813 Info App: File /app/emby/system/plugins/AudioDb.dll has version 1.0.18.0
+2025-01-23 12:06:44.815 Info App: File /config/plugins/BlurayMounter.dll has version 1.0.2.0
+2025-01-23 12:06:44.815 Info App: File /app/emby/system/plugins/BlurayMounter.dll has version 1.0.2.0
+2025-01-23 12:06:44.817 Info App: File /config/plugins/DvdMounter.dll has version 1.0.0.0
+2025-01-23 12:06:44.817 Info App: File /app/emby/system/plugins/DvdMounter.dll has version 1.0.0.0
+2025-01-23 12:06:44.819 Info App: File /config/plugins/Emby.Dlna.dll has version 1.4.7.0
+2025-01-23 12:06:44.821 Info App: File /app/emby/system/plugins/Emby.Dlna.dll has version 1.4.3.0
+2025-01-23 12:06:44.822 Info App: File /config/plugins/Emby.M3UTuner.dll has version 1.0.38.0
+2025-01-23 12:06:44.823 Info App: File /app/emby/system/plugins/Emby.M3UTuner.dll has version 1.0.31.0
+2025-01-23 12:06:44.824 Info App: File /config/plugins/Emby.PortMapper.dll has version 1.2.6.0
+2025-01-23 12:06:44.824 Info App: File /app/emby/system/plugins/Emby.PortMapper.dll has version 1.2.4.0
+2025-01-23 12:06:44.825 Info App: File /config/plugins/Emby.Server.CinemaMode.dll has version 1.0.47.0
+2025-01-23 12:06:44.825 Info App: File /app/emby/system/plugins/Emby.Server.CinemaMode.dll has version 1.0.47.0
+2025-01-23 12:06:44.826 Info App: File /config/plugins/Emby.Webhooks.dll has version 1.0.35.0
+2025-01-23 12:06:44.826 Info App: File /app/emby/system/plugins/Emby.Webhooks.dll has version 1.0.35.0
+2025-01-23 12:06:44.827 Info App: File /config/plugins/Emby.XmlTV.dll has version 1.2.0.0
+2025-01-23 12:06:44.828 Info App: File /app/emby/system/plugins/Emby.XmlTV.dll has version 1.2.0.0
+2025-01-23 12:06:44.829 Info App: File /config/plugins/EmbyGuideData.dll has version 1.0.16.0
+2025-01-23 12:06:44.829 Info App: File /app/emby/system/plugins/EmbyGuideData.dll has version 1.0.13.0
+2025-01-23 12:06:44.830 Info App: File /config/plugins/Fanart.dll has version 1.0.16.0
+2025-01-23 12:06:44.830 Info App: File /app/emby/system/plugins/Fanart.dll has version 1.0.16.0
+2025-01-23 12:06:44.831 Info App: File /config/plugins/MBBackup.dll has version 1.6.8.0
+2025-01-23 12:06:44.832 Info App: File /app/emby/system/plugins/MBBackup.dll has version 1.6.7.0
+2025-01-23 12:06:44.833 Info App: File /config/plugins/MovieDb.dll has version 1.8.0.0
+2025-01-23 12:06:44.834 Info App: File /app/emby/system/plugins/MovieDb.dll has version 1.8.0.0
+2025-01-23 12:06:44.835 Info App: File /config/plugins/MusicBrainz.dll has version 1.0.24.0
+2025-01-23 12:06:44.836 Info App: File /app/emby/system/plugins/MusicBrainz.dll has version 1.0.24.0
+2025-01-23 12:06:44.837 Info App: File /config/plugins/NfoMetadata.dll has version 1.0.82.0
+2025-01-23 12:06:44.838 Info App: File /app/emby/system/plugins/NfoMetadata.dll has version 1.0.80.0
+2025-01-23 12:06:44.838 Info App: File /config/plugins/OMDb.dll has version 1.0.21.0
+2025-01-23 12:06:44.838 Info App: File /app/emby/system/plugins/OMDb.dll has version 1.0.21.0
+2025-01-23 12:06:44.839 Info App: File /config/plugins/OpenSubtitles.dll has version 1.0.60.0
+2025-01-23 12:06:44.840 Info App: File /app/emby/system/plugins/OpenSubtitles.dll has version 1.0.59.0
+2025-01-23 12:06:44.841 Info App: File /config/plugins/StudioImages.dll has version 1.0.3.0
+2025-01-23 12:06:44.841 Info App: File /app/emby/system/plugins/StudioImages.dll has version 1.0.3.0
+2025-01-23 12:06:44.842 Info App: File /config/plugins/Tvdb.dll has version 1.5.8.0
+2025-01-23 12:06:44.843 Info App: File /app/emby/system/plugins/Tvdb.dll has version 1.5.1.0
+2025-01-23 12:06:44.860 Info App: Loading AudioDb, Version=1.0.18.0, Culture=neutral, PublicKeyToken=null from /config/plugins/AudioDb.dll
+2025-01-23 12:06:44.860 Info App: Loading BlurayMounter, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null from /config/plugins/BlurayMounter.dll
+2025-01-23 12:06:44.860 Info App: Loading DvdMounter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from /config/plugins/DvdMounter.dll
+2025-01-23 12:06:44.860 Info App: Loading Emby.Dlna, Version=1.4.7.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.Dlna.dll
+2025-01-23 12:06:44.860 Info App: Loading Emby.M3UTuner, Version=1.0.38.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.M3UTuner.dll
+2025-01-23 12:06:44.860 Info App: Loading Emby.PortMapper, Version=1.2.6.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.PortMapper.dll
+2025-01-23 12:06:44.860 Info App: Loading Emby.Server.CinemaMode, Version=1.0.47.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.Server.CinemaMode.dll
+2025-01-23 12:06:44.860 Info App: Loading Emby.Webhooks, Version=1.0.35.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.Webhooks.dll
+2025-01-23 12:06:44.860 Info App: Loading Emby.XmlTV, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.XmlTV.dll
+2025-01-23 12:06:44.860 Info App: Loading EmbyGuideData, Version=1.0.16.0, Culture=neutral, PublicKeyToken=null from /config/plugins/EmbyGuideData.dll
+2025-01-23 12:06:44.860 Info App: Loading Fanart, Version=1.0.16.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Fanart.dll
+2025-01-23 12:06:44.860 Info App: Loading MBBackup, Version=1.6.8.0, Culture=neutral, PublicKeyToken=null from /config/plugins/MBBackup.dll
+2025-01-23 12:06:44.860 Info App: Loading MovieDb, Version=1.8.0.0, Culture=neutral, PublicKeyToken=null from /config/plugins/MovieDb.dll
+2025-01-23 12:06:44.860 Info App: Loading MusicBrainz, Version=1.0.24.0, Culture=neutral, PublicKeyToken=null from /config/plugins/MusicBrainz.dll
+2025-01-23 12:06:44.860 Info App: Loading NfoMetadata, Version=1.0.82.0, Culture=neutral, PublicKeyToken=null from /config/plugins/NfoMetadata.dll
+2025-01-23 12:06:44.860 Info App: Loading OMDb, Version=1.0.21.0, Culture=neutral, PublicKeyToken=null from /config/plugins/OMDb.dll
+2025-01-23 12:06:44.860 Info App: Loading OpenSubtitles, Version=1.0.60.0, Culture=neutral, PublicKeyToken=null from /config/plugins/OpenSubtitles.dll
+2025-01-23 12:06:44.860 Info App: Loading StudioImages, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null from /config/plugins/StudioImages.dll
+2025-01-23 12:06:44.860 Info App: Loading Tvdb, Version=1.5.8.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Tvdb.dll
+2025-01-23 12:06:44.860 Info App: Loading MediaBrowser.Plugins.Anime, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null from /config/plugins/MediaBrowser.Plugins.Anime.dll
+2025-01-23 12:06:44.860 Info App: Loading Emby.Plugins.AniList, Version=1.0.6.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.Plugins.AniList.dll
+2025-01-23 12:06:44.860 Info App: Loading Emby.Plugins.MyAnimeList, Version=1.0.12.0, Culture=neutral, PublicKeyToken=null from /config/plugins/Emby.Plugins.MyAnimeList.dll
+2025-01-23 12:06:44.860 Info App: Loading Emby.Api, Version=4.9.0.30, Culture=neutral, PublicKeyToken=null
+2025-01-23 12:06:44.860 Info App: Loading Emby.Web, Version=4.9.0.30, Culture=neutral, PublicKeyToken=null
+2025-01-23 12:06:44.860 Info App: Loading MediaBrowser.Model, Version=4.9.0.30, Culture=neutral, PublicKeyToken=null
+2025-01-23 12:06:44.860 Info App: Loading MediaBrowser.Common, Version=4.9.0.30, Culture=neutral, PublicKeyToken=null
+2025-01-23 12:06:44.860 Info App: Loading MediaBrowser.Controller, Version=4.9.0.30, Culture=neutral, PublicKeyToken=null
+2025-01-23 12:06:44.860 Info App: Loading Emby.Providers, Version=4.9.0.30, Culture=neutral, PublicKeyToken=null
+2025-01-23 12:06:44.860 Info App: Loading Emby.Photos, Version=4.9.0.30, Culture=neutral, PublicKeyToken=null
+2025-01-23 12:06:44.860 Info App: Loading Emby.Server.Implementations, Version=4.9.0.30, Culture=neutral, PublicKeyToken=null
+2025-01-23 12:06:44.860 Info App: Loading Emby.LiveTV, Version=4.9.0.30, Culture=neutral, PublicKeyToken=null
+2025-01-23 12:06:44.860 Info App: Loading Emby.ActivityLog, Version=4.9.0.30, Culture=neutral, PublicKeyToken=null
+2025-01-23 12:06:44.860 Info App: Loading Emby.Server.MediaEncoding, Version=4.9.0.30, Culture=neutral, PublicKeyToken=null
+2025-01-23 12:06:44.860 Info App: Loading Emby.LocalMetadata, Version=4.9.0.30, Culture=neutral, PublicKeyToken=null
+2025-01-23 12:06:44.860 Info App: Loading Emby.Notifications, Version=4.9.0.30, Culture=neutral, PublicKeyToken=null
+2025-01-23 12:06:44.860 Info App: Loading Emby.Web.GenericUI, Version=4.9.0.30, Culture=neutral, PublicKeyToken=null
+2025-01-23 12:06:44.860 Info App: Loading Emby.Codecs.Dxva, Version=4.9.0.30, Culture=neutral, PublicKeyToken=null
+2025-01-23 12:06:44.860 Info App: Loading Emby.Codecs, Version=4.9.0.30, Culture=neutral, PublicKeyToken=null
+2025-01-23 12:06:44.860 Info App: Loading Emby.Server.Connect, Version=4.9.0.30, Culture=neutral, PublicKeyToken=null
+2025-01-23 12:06:44.860 Info App: Loading Emby.Server.Sync, Version=4.9.0.30, Culture=neutral, PublicKeyToken=null
+2025-01-23 12:06:44.860 Info App: Loading EmbyServer, Version=4.9.0.30, Culture=neutral, PublicKeyToken=null
+2025-01-23 12:06:45.067 Info SqliteUserRepository: Sqlite version: 3.42.0
+2025-01-23 12:06:45.068 Info SqliteUserRepository: Sqlite compiler options: ATOMIC_INTRINSICS=1,COMPILER=gcc-10.3.0,DEFAULT_AUTOVACUUM,DEFAULT_CACHE_SIZE=-2000,DEFAULT_FILE_FORMAT=4,DEFAULT_JOURNAL_SIZE_LIMIT=-1,DEFAULT_MMAP_SIZE=0,DEFAULT_PAGE_SIZE=4096,DEFAULT_PCACHE_INITSZ=20,DEFAULT_RECURSIVE_TRIGGERS,DEFAULT_SECTOR_SIZE=4096,DEFAULT_SYNCHRONOUS=2,DEFAULT_WAL_AUTOCHECKPOINT=1000,DEFAULT_WAL_SYNCHRONOUS=2,DEFAULT_WORKER_THREADS=0,ENABLE_COLUMN_METADATA,ENABLE_DBSTAT_VTAB,ENABLE_FTS3,ENABLE_FTS3_PARENTHESIS,ENABLE_FTS3_TOKENIZER,ENABLE_FTS4,ENABLE_FTS5,ENABLE_GEOPOLY,ENABLE_MATH_FUNCTIONS,ENABLE_PREUPDATE_HOOK,ENABLE_RTREE,ENABLE_SESSION,ENABLE_UNLOCK_NOTIFY,ENABLE_UPDATE_DELETE_LIMIT,LIKE_DOESNT_MATCH_BLOBS,MALLOC_SOFT_LIMIT=1024,MAX_ATTACHED=10,MAX_COLUMN=2000,MAX_COMPOUND_SELECT=500,MAX_DEFAULT_PAGE_SIZE=8192,MAX_EXPR_DEPTH=1000,MAX_FUNCTION_ARG=127,MAX_LENGTH=1000000000,MAX_LIKE_PATTERN_LENGTH=50000,MAX_MMAP_SIZE=0x7fff0000,MAX_PAGE_COUNT=1073741823,MAX_PAGE_SIZE=65536,MAX_SCHEMA_RETRY=25,MAX_SQL_LENGTH=1000000000,MAX_TRIGGER_DEPTH=1000,MAX_VARIABLE_NUMBER=250000,MAX_VDBE_OP=250000000,MAX_WORKER_THREADS=8,MUTEX_PTHREADS,OMIT_LOOKASIDE,SECURE_DELETE,SYSTEM_MALLOC,TEMP_STORE=1,THREADSAFE=1
+2025-01-23 12:06:45.068 Info SqliteUserRepository: Opening sqlite connection to /config/data/users.db
+2025-01-23 12:06:45.078 Info SqliteUserRepository: Default journal_mode for /config/data/users.db is wal
+2025-01-23 12:06:45.081 Info SqliteUserRepository: PRAGMA foreign_keys=1
+2025-01-23 12:06:45.082 Info SqliteUserRepository: Result of setting SQLITE_DBCONFIG_DQS_DDL to 0 is 0
+2025-01-23 12:06:45.082 Info SqliteUserRepository: Result of setting SQLITE_DBCONFIG_DQS_DML to 0 is 0
+2025-01-23 12:06:45.176 Info ActivityRepository: Opening sqlite connection to /config/data/activitylog.db
+2025-01-23 12:06:45.177 Info ActivityRepository: Default journal_mode for /config/data/activitylog.db is wal
+2025-01-23 12:06:45.177 Info ActivityRepository: PRAGMA foreign_keys=1
+2025-01-23 12:06:45.177 Info ActivityRepository: Result of setting SQLITE_DBCONFIG_DQS_DDL to 0 is 0
+2025-01-23 12:06:45.177 Info ActivityRepository: Result of setting SQLITE_DBCONFIG_DQS_DML to 0 is 0
+2025-01-23 12:06:45.187 Info NetworkManager: Detecting local network addresses
+2025-01-23 12:06:45.188 Info NetworkManager: networkInterface: Ethernet eth0, Speed: 10000000000, Description: eth0
+2025-01-23 12:06:45.191 Info NetworkManager: GatewayAddresses: 172.18.0.1
+2025-01-23 12:06:45.191 Info NetworkManager: UnicastAddresses: 172.18.0.2
+2025-01-23 12:06:45.192 Info NetworkManager: networkInterface: Loopback lo, Speed: -1, Description: lo
+2025-01-23 12:06:45.192 Info NetworkManager: GatewayAddresses: 
+2025-01-23 12:06:45.199 Info NetworkManager: UnicastAddresses: 127.0.0.1,::1
+2025-01-23 12:06:45.232 Info NetworkManager: Detected local ip addresses: [{"IPAddress":"172.18.0.2","HasGateWayAddress":true,"PrefixLength":16,"IPv4Mask":"255.255.0.0"},{"IPAddress":"127.0.0.1","HasGateWayAddress":false,"PrefixLength":8,"IPv4Mask":"255.0.0.0"},{"IPAddress":"::1","HasGateWayAddress":false,"PrefixLength":128}]
+2025-01-23 12:06:45.240 Info App: Adding HttpListener prefix http://+:8096/
+2025-01-23 12:06:45.306 Info AuthenticationRepository: Opening sqlite connection to /config/data/authentication.db
+2025-01-23 12:06:45.307 Info AuthenticationRepository: Default journal_mode for /config/data/authentication.db is wal
+2025-01-23 12:06:45.307 Info AuthenticationRepository: PRAGMA foreign_keys=1
+2025-01-23 12:06:45.307 Info AuthenticationRepository: Result of setting SQLITE_DBCONFIG_DQS_DDL to 0 is 0
+2025-01-23 12:06:45.307 Info AuthenticationRepository: Result of setting SQLITE_DBCONFIG_DQS_DML to 0 is 0
+2025-01-23 12:06:45.311 Info SqliteItemRepository: Opening sqlite connection to /config/data/library.db
+2025-01-23 12:06:45.318 Info SqliteItemRepository: Default journal_mode for /config/data/library.db is wal
+2025-01-23 12:06:45.319 Info SqliteItemRepository: PRAGMA cache_size=-131072
+2025-01-23 12:06:45.319 Info SqliteItemRepository: PRAGMA page_size=4096
+2025-01-23 12:06:45.319 Info SqliteItemRepository: PRAGMA foreign_keys=1
+2025-01-23 12:06:45.319 Info SqliteItemRepository: Result of setting SQLITE_DBCONFIG_DQS_DDL to 0 is 0
+2025-01-23 12:06:45.319 Info SqliteItemRepository: Result of setting SQLITE_DBCONFIG_DQS_DML to 0 is 0
+2025-01-23 12:06:45.326 Info SqliteItemRepository: Init Complete
+2025-01-23 12:06:45.610 Info App: Emby Server 4.9.0.30
+	Command line: /app/emby/system/EmbyServer.dll -programdata /config -ffdetect /app/emby/bin/ffdetect -ffmpeg /app/emby/bin/ffmpeg -ffprobe /app/emby/bin/ffprobe -restartexitcode 3
+	Operating system: Linux version 6.12.10-zen1-1-zen (linux-zen@archlinux) (gcc (GCC) 14.2.1 20240910, GNU ld (GNU Binutils) 2.43.1) #1 ZEN SMP PREEMPT_DYNAMIC Sat, 18 Ja
+	OS/Process: x64/x64
+	Framework: .NET 8.0.6
+	Runtime: app/emby/system/System.Private.CoreLib.dll
+	Processor count: 8
+	Data path: /config
+	Application path: /app/emby/system
+2025-01-23 12:06:45.610 Info App: Logs path: /config/logs
+2025-01-23 12:06:45.610 Info App: Cache path: /config/cache
+2025-01-23 12:06:45.610 Info App: Internal metadata path: /config/metadata
+2025-01-23 12:06:45.610 Info App: Transcoding temporary files path: /config/transcoding-temp
+2025-01-23 12:06:45.610 Info App: DefaultThreadCurrentCulture: en-US
+2025-01-23 12:06:45.610 Info App: DefaultThreadCurrentUICulture: en-US
+2025-01-23 12:06:45.610 Info App: DefaultThreadCurrentUICulture: en-US
+2025-01-23 12:06:45.610 Info App: Local time: 1/23/2025 12:06:45 PM +05:30
+2025-01-23 12:06:46.483 Info FfmpegManager: FFMpeg: /app/emby/bin/ffmpeg
+2025-01-23 12:06:46.483 Info FfmpegManager: FFProbe: /app/emby/bin/ffprobe
+2025-01-23 12:06:46.483 Info FfmpegManager: FFDetect: /app/emby/bin/ffdetect
+2025-01-23 12:06:46.497 Info Skia: SkiaSharp version: 2.88.0.0
+2025-01-23 12:06:46.530 Info libvips: NetVips version: 2.3.1.0
+2025-01-23 12:06:46.531 Info ImageProcessor: Adding image processor Skia
+2025-01-23 12:06:46.531 Info ImageProcessor: Adding image processor libvips
+2025-01-23 12:06:46.560 Info TaskManager: Daily trigger for Emby Server Backup set to fire at 01/24/2025 00:10:00, which is 723.2240082483333 minutes from now.
+2025-01-23 12:06:46.569 Info TaskManager: Daily trigger for Video preview thumbnail extraction set to fire at 01/24/2025 02:00:00, which is 833.2238440066667 minutes from now.
+2025-01-23 12:06:46.601 Info TaskManager: Daily trigger for Rotate log file set to fire at 01/24/2025 00:00:00, which is 713.2233031116667 minutes from now.
+2025-01-23 12:06:46.605 Info TaskManager: Queueing task HardwareDetectionScheduledTask
+2025-01-23 12:06:46.608 Info TaskManager: Executing Hardware Detection
+2025-01-23 12:06:46.610 Info App: ServerId: ba6ce41db7a9473c997b865dfb591e21
+2025-01-23 12:06:46.625 Info FfmpegManager: ProcessRun 'ffmpeg -hide_banner -version' Execute: /app/emby/bin/ffmpeg -hide_banner -version
+2025-01-23 12:06:46.656 Info App: Starting entry point Emby.Dlna.Main.DlnaEntryPoint
+2025-01-23 12:06:46.666 Info FfmpegManager: ProcessRun 'ffmpeg -hide_banner -version' Process exited with code 0 - Succeeded
+2025-01-23 12:06:46.674 Info FfmpegManager: FfmpegValidator.Validate complete
+2025-01-23 12:06:46.693 Info App: Entry point completed: Emby.Dlna.Main.DlnaEntryPoint. Duration: 0.0375451 seconds
+2025-01-23 12:06:46.693 Info App: Starting entry point Emby.Server.Implementations.Networking.RemoteAddressEntryPoint
+2025-01-23 12:06:46.694 Info App: Loading data from /config/data/wan.dat
+2025-01-23 12:06:46.695 Info App: Entry point completed: Emby.Server.Implementations.Networking.RemoteAddressEntryPoint. Duration: 0.0014702 seconds
+2025-01-23 12:06:46.695 Info App: Starting entry point Emby.Server.Connect.ConnectEntryPoint
+2025-01-23 12:06:46.696 Info App: Loading data from /config/data/connect.txt
+2025-01-23 12:06:46.696 Info App: Entry point completed: Emby.Server.Connect.ConnectEntryPoint. Duration: 0.0012175 seconds
+2025-01-23 12:06:46.696 Info App: Core startup complete
+2025-01-23 12:06:46.697 Info App: Starting entry point Emby.PortMapper.ExternalPortForwarding
+2025-01-23 12:06:46.698 Info App: Entry point completed: Emby.PortMapper.ExternalPortForwarding. Duration: 0.0008071 seconds
+2025-01-23 12:06:46.698 Info App: Starting entry point Emby.Security.PluginSecurityManager
+2025-01-23 12:06:46.698 Info App: Entry point completed: Emby.Security.PluginSecurityManager. Duration: 4.2E-05 seconds
+2025-01-23 12:06:46.698 Info App: Starting entry point Emby.Server.CinemaMode.IntrosEntryPoint
+2025-01-23 12:06:46.698 Info App: Entry point completed: Emby.Server.CinemaMode.IntrosEntryPoint. Duration: 0.0001054 seconds
+2025-01-23 12:06:46.698 Info App: Starting entry point Emby.Webhooks.MigrationEntryPoint
+2025-01-23 12:06:46.699 Info App: Entry point completed: Emby.Webhooks.MigrationEntryPoint. Duration: 0.0006529 seconds
+2025-01-23 12:06:46.699 Info App: Starting entry point MBBackup.ServerEntryPoint
+2025-01-23 12:06:46.699 Info App: Entry point completed: MBBackup.ServerEntryPoint. Duration: 4.58E-05 seconds
+2025-01-23 12:06:46.699 Info App: Starting entry point MovieDb.Security.PluginStartup
+2025-01-23 12:06:46.700 Info App: Entry point completed: MovieDb.Security.PluginStartup. Duration: 0.0005696 seconds
+2025-01-23 12:06:46.700 Info App: Starting entry point NfoMetadata.EntryPoint
+2025-01-23 12:06:46.700 Info App: Entry point completed: NfoMetadata.EntryPoint. Duration: 0.000484 seconds
+2025-01-23 12:06:46.700 Info App: Starting entry point Tvdb.EntryPoint
+2025-01-23 12:06:46.700 Info App: Entry point completed: Tvdb.EntryPoint. Duration: 2.72E-05 seconds
+2025-01-23 12:06:46.700 Info App: Starting entry point Emby.Server.Implementations.Udp.UdpServerEntryPoint
+2025-01-23 12:06:46.701 Info App: Entry point completed: Emby.Server.Implementations.Udp.UdpServerEntryPoint. Duration: 0.0007501 seconds
+2025-01-23 12:06:46.701 Info App: Starting entry point Emby.Server.Implementations.Playlists.PlaylistUpgradeEntryPoint
+2025-01-23 12:06:46.702 Info App: Entry point completed: Emby.Server.Implementations.Playlists.PlaylistUpgradeEntryPoint. Duration: 0.0009441 seconds
+2025-01-23 12:06:46.702 Info App: Starting entry point Emby.Server.Implementations.Library.DeviceAccessEntryPoint
+2025-01-23 12:06:46.702 Info App: Entry point completed: Emby.Server.Implementations.Library.DeviceAccessEntryPoint. Duration: 0.0002161 seconds
+2025-01-23 12:06:46.702 Info App: Starting entry point Emby.Server.Implementations.IO.LibraryMonitorStartup
+2025-01-23 12:06:46.713 Info App: Entry point completed: Emby.Server.Implementations.IO.LibraryMonitorStartup. Duration: 0.0109422 seconds
+2025-01-23 12:06:46.713 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.AutomaticRestartEntryPoint
+2025-01-23 12:06:46.714 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.AutomaticRestartEntryPoint. Duration: 0.0004315 seconds
+2025-01-23 12:06:46.714 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.KeepServerAwake
+2025-01-23 12:06:46.714 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.KeepServerAwake. Duration: 0.0002083 seconds
+2025-01-23 12:06:46.714 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.LibraryChangedNotifier
+2025-01-23 12:06:46.715 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.LibraryChangedNotifier. Duration: 0.0006189 seconds
+2025-01-23 12:06:46.715 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.ServerEventNotifier
+2025-01-23 12:06:46.715 Info LibraryMonitor: Watching directory with new FileSystemWatcher for /data/Series for item 5
+2025-01-23 12:06:46.716 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.ServerEventNotifier. Duration: 0.0011364 seconds
+2025-01-23 12:06:46.716 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.StartupWizard
+2025-01-23 12:06:46.716 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.StartupWizard. Duration: 0.0002329 seconds
+2025-01-23 12:06:46.716 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.SystemEvents
+2025-01-23 12:06:46.717 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.SystemEvents. Duration: 0.0001418 seconds
+2025-01-23 12:06:46.717 Info App: Starting entry point Emby.Server.Implementations.EntryPoints.UserDataChangeNotifier
+2025-01-23 12:06:46.717 Info App: Entry point completed: Emby.Server.Implementations.EntryPoints.UserDataChangeNotifier. Duration: 0.0001131 seconds
+2025-01-23 12:06:46.717 Info App: Starting entry point Emby.Server.Implementations.Channels.ChannelsEntryPoint
+2025-01-23 12:06:46.718 Info App: Entry point completed: Emby.Server.Implementations.Channels.ChannelsEntryPoint. Duration: 0.0013066 seconds
+2025-01-23 12:06:46.718 Info App: Starting entry point Emby.LiveTV.EntryPoint
+2025-01-23 12:06:46.719 Info LiveTV: Loading live tv data from /config/data/livetv/timers
+2025-01-23 12:06:46.720 Info App: Entry point completed: Emby.LiveTV.EntryPoint. Duration: 0.001923 seconds
+2025-01-23 12:06:46.720 Info App: Starting entry point Emby.LiveTV.RecordingNotifier
+2025-01-23 12:06:46.721 Info App: Entry point completed: Emby.LiveTV.RecordingNotifier. Duration: 0.0008947 seconds
+2025-01-23 12:06:46.721 Info App: Starting entry point Emby.ActivityLog.ActivityLogEntryPoint
+2025-01-23 12:06:46.722 Info App: Entry point completed: Emby.ActivityLog.ActivityLogEntryPoint. Duration: 0.0010715 seconds
+2025-01-23 12:06:46.722 Info App: Starting entry point Emby.Server.MediaEncoding.Api.EncodingManagerEntryPoint
+2025-01-23 12:06:46.723 Info App: Entry point completed: Emby.Server.MediaEncoding.Api.EncodingManagerEntryPoint. Duration: 0.0005762 seconds
+2025-01-23 12:06:46.723 Info App: Starting entry point Emby.Notifications.NotificationManagerEntryPoint
+2025-01-23 12:06:46.730 Info Notifications: Registering event nofitier Emby Server User Notifications
+2025-01-23 12:06:46.734 Info App: Entry point completed: Emby.Notifications.NotificationManagerEntryPoint. Duration: 0.010901 seconds
+2025-01-23 12:06:46.734 Info App: Starting entry point Emby.Server.Sync.SyncNotificationEntryPoint
+2025-01-23 12:06:46.735 Info App: Entry point completed: Emby.Server.Sync.SyncNotificationEntryPoint. Duration: 0.0008326 seconds
+2025-01-23 12:06:46.735 Info App: Starting entry point EmbyServer.Windows.LoopUtilEntryPoint
+2025-01-23 12:06:46.735 Info App: Entry point completed: EmbyServer.Windows.LoopUtilEntryPoint. Duration: 8.6E-05 seconds
+2025-01-23 12:06:46.735 Info App: All entry points have started
+2025-01-23 12:06:46.736 Info SoftwareCodecProvider: h264, libx264, x264, V-E-libx264
+2025-01-23 12:06:46.736 Info SoftwareCodecProvider: hevc, libx265, x265, V-E-libx265
+2025-01-23 12:06:46.737 Info SoftwareCodecProvider: mpeg4, mpeg4, MPEG-4 part 2, V-E-mpeg4
+2025-01-23 12:06:46.737 Info SoftwareCodecProvider: msmpeg4v3, msmpeg4, MPEG-4 part 2 (MS Variant 3), V-E-msmpeg4
+2025-01-23 12:06:46.737 Info SoftwareCodecProvider: vp8, libvpx, libvpx VP8, V-E-libvpx
+2025-01-23 12:06:46.740 Info SoftwareCodecProvider: h264, libx264, x264, V-E-libx264
+2025-01-23 12:06:46.740 Info SoftwareCodecProvider: hevc, libx265, x265, V-E-libx265
+2025-01-23 12:06:46.740 Info SoftwareCodecProvider: mpeg4, mpeg4, MPEG-4 part 2, V-E-mpeg4
+2025-01-23 12:06:46.740 Info SoftwareCodecProvider: msmpeg4v3, msmpeg4, MPEG-4 part 2 (MS Variant 3), V-E-msmpeg4
+2025-01-23 12:06:46.740 Info SoftwareCodecProvider: vp8, libvpx, libvpx VP8, V-E-libvpx
+2025-01-23 12:06:46.753 Info VaapiCodecProvider: ProcessRun 'ffdetect_vaencdec' Execute: /app/emby/bin/ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 vaencdec -print_format json 
+2025-01-23 12:06:46.770 Info App: Init BeginReceive on 0.0.0.0
+2025-01-23 12:06:46.770 Info App: Init BeginReceive on 0.0.0.0
+2025-01-23 12:06:46.770 Info App: Init BeginReceive on 172.18.0.2
+2025-01-23 12:06:46.770 Info App: Init BeginReceive on 127.0.0.1
+2025-01-23 12:06:46.778 Info VaapiCodecProvider: ProcessRun 'ffdetect_vaencdec' Process exited with code 0 - Succeeded
+2025-01-23 12:06:46.848 Info VaapiCodecProvider: Adapter #0: 'Tiger Lake-LP GT2 UHD Graphics' Id:39544 (Driver: , Vendor: Intel Corporation)
+2025-01-23 12:06:46.850 Info QuickSyncCodecProvider: ProcessRun 'ffdetect_qsvencdec' Execute: /app/emby/bin/ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 qsvencdec -print_format json 
+2025-01-23 12:06:46.863 Info QuickSyncCodecProvider: ProcessRun 'ffdetect_qsvencdec' Process exited with code 0 - Succeeded
+2025-01-23 12:06:46.918 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Execute: /app/emby/bin/ffdetect -hide_banner -show_program_version -loglevel 48 -show_error -show_log 40 nvencdec -print_format json 
+2025-01-23 12:06:46.919 Info NvidiaCodecProvider: ProcessRun 'ffdetect_nvencdec' Process exited with code 1 - Failed
+2025-01-23 12:06:47.061 Info CodecManager: CodecList:
+2025-01-23 12:06:47.062 Info TaskManager: Hardware Detection Completed after 0 minute(s) and 0 seconds
+2025-01-23 12:06:49.600 Info TaskManager: Queueing task PluginUpdateTask
+2025-01-23 12:06:49.600 Info TaskManager: Executing Check for plugin updates
+2025-01-23 12:06:49.601 Info TaskManager: Queueing task SystemUpdateTask
+2025-01-23 12:06:49.601 Info TaskManager: Executing Check for application updates
+2025-01-23 12:06:49.604 Info TaskManager: Queueing task SubtitleOcrDataTask
+2025-01-23 12:06:49.604 Info TaskManager: Executing Download OCR Data
+2025-01-23 12:06:49.605 Info HttpClient: GET https://www.mb3admin.com/admin/service/EmbyPackages.json
+2025-01-23 12:06:49.605 Info HttpClient: GET https://api.github.com/repos/MediaBrowser/Emby.Releases/releases
+2025-01-23 12:06:49.620 Info TaskManager: Download OCR Data Completed after 0 minute(s) and 0 seconds
+2025-01-23 12:06:52.332 Info TaskManager: Check for plugin updates Completed after 0 minute(s) and 2 seconds
+2025-01-23 12:06:52.880 Info TaskManager: Check for application updates Completed after 0 minute(s) and 3 seconds
+2025-01-23 12:06:54.991 Info Server: http/1.1 POST http://‌‍‍localhost‌:8096/emby/Sessions/Capabilities/Full?X-Emby-Client=Emby Theater&X-Emby-Device-Name=archlinux&X-Emby-Device-Id=archlinux&X-Emby-Client-Version=3.0.21&X-Emby-Token=‌0221b4ea714c46b2aab82570f21fdae7‌&X-Emby-Language=en-us&reqformat=json. Source Ip: ‌‍‍172.18.0.1‌, UserAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) EmbyTheater/3.0.21 Chrome/83.0.4103.122 Electron/9.4.4 Safari/537.36
+2025-01-23 12:06:55.009 Info Server: http/1.1 Response 204 to ‌‍‍172.18.0.1‌. Time: 19ms. POST http://‌‍‍localhost‌:8096/emby/Sessions/Capabilities/Full?X-Emby-Client=Emby Theater&X-Emby-Device-Name=archlinux&X-Emby-Device-Id=archlinux&X-Emby-Client-Version=3.0.21&X-Emby-Token=‌0221b4ea714c46b2aab82570f21fdae7‌&X-Emby-Language=en-us&reqformat=json
+2025-01-23 12:07:46.600 Info HttpClient: GET https://www.mb3admin.com/admin/service/EmbyPackages.json
+2025-01-23 12:07:46.603 Info ServerConfigurationManager: Saving system configuration
+2025-01-23 12:07:46.607 Info App: Setting default culture to en-US
+2025-01-23 12:07:46.629 Info HttpClient: POST https://mb3admin.com/admin/service/registration/validate
+2025-01-23 12:07:46.638 Info HttpClient: Http response 200 from https://mb3admin.com/admin/service/registration/validate after 8ms. Headers Server=nginx/1.27.0, Date=Thu, 23 Jan 2025 06:37:46 GMT, Connection=keep-alive, Access-Control-Allow-Origin=*, Access-Control-Allow-Headers=*, Access-Control-Allow-Method=*, Access-Control-Allow-Credentials=true
+2025-01-23 12:07:46.643 Info SecurityManager: Registered for MBSupporter
+2025-01-23 12:07:46.650 Info LiveTvManager: Refreshing guide with 7 days of guide data
+2025-01-23 12:07:46.653 Info LiveTV: Loading live tv data from /config/data/livetv/seriestimers
+2025-01-23 12:16:22.717 Info Server: Stopping HttpListener...
+2025-01-23 12:16:22.722 Info Server: HttpListener stopped
+2025-01-23 12:16:22.722 Info App: Disposing CoreAppHost
+2025-01-23 12:16:22.723 Info App: Disposing LoopUtilEntryPoint
+2025-01-23 12:16:22.723 Info App: Disposing SyncNotificationEntryPoint
+2025-01-23 12:16:22.724 Info App: Disposing ConnectEntryPoint
+2025-01-23 12:16:22.724 Info App: Disposing NotificationManagerEntryPoint
+2025-01-23 12:16:22.724 Info App: Disposing EncodingManagerEntryPoint
+2025-01-23 12:16:22.724 Info App: Disposing ActivityLogEntryPoint
+2025-01-23 12:16:22.727 Info App: Disposing RecordingNotifier
+2025-01-23 12:16:22.729 Info App: Disposing EntryPoint
+2025-01-23 12:16:22.729 Info App: Disposing ChannelsEntryPoint
+2025-01-23 12:16:22.729 Info App: Disposing UserDataChangeNotifier
+2025-01-23 12:16:22.729 Info App: Disposing SystemEvents
+2025-01-23 12:16:22.729 Info App: Disposing StartupWizard
+2025-01-23 12:16:22.729 Info App: Disposing ServerEventNotifier
+2025-01-23 12:16:22.731 Info App: Disposing LibraryChangedNotifier
+2025-01-23 12:16:22.732 Info App: Disposing KeepServerAwake
+2025-01-23 12:16:22.732 Info App: Disposing AutomaticRestartEntryPoint
+2025-01-23 12:16:22.732 Info App: Disposing LibraryMonitorStartup
+2025-01-23 12:16:22.732 Info App: Disposing DeviceAccessEntryPoint
+2025-01-23 12:16:22.732 Info App: Disposing RemoteAddressEntryPoint
+2025-01-23 12:16:22.733 Info App: Disposing PlaylistUpgradeEntryPoint
+2025-01-23 12:16:22.733 Info App: Disposing UdpServerEntryPoint
+2025-01-23 12:16:22.733 Info App: Disposing EntryPoint
+2025-01-23 12:16:22.733 Info App: Disposing EntryPoint
+2025-01-23 12:16:22.733 Info App: Disposing PluginStartup
+2025-01-23 12:16:22.733 Info App: Disposing ServerEntryPoint
+2025-01-23 12:16:22.733 Info App: Disposing MigrationEntryPoint
+2025-01-23 12:16:22.733 Info App: Disposing IntrosEntryPoint
+2025-01-23 12:16:22.733 Info App: Disposing PluginSecurityManager
+2025-01-23 12:16:22.733 Info App: Disposing ExternalPortForwarding
+2025-01-23 12:16:22.734 Info App: Disposing DlnaEntryPoint
+2025-01-23 12:16:22.735 Info DLNA: Disposing PlayToManager
+2025-01-23 12:16:22.735 Info App: Disposing ActivityLogWebSocketListener
+2025-01-23 12:16:22.735 Info App: Disposing SessionWebSocketListener
+2025-01-23 12:16:22.736 Info App: Disposing ScheduledTasksWebSocketListener
+2025-01-23 12:16:22.736 Info App: Disposing SessionInfoWebSocketListener
+2025-01-23 12:16:22.737 Info App: Disposing SessionInfosWebSocketListener
+2025-01-23 12:16:22.737 Info App: Disposing SessionEventsWebSocketListener
+2025-01-23 12:16:22.738 Info App: Disposing StrmMounter
+2025-01-23 12:16:22.738 Info App: Disposing DvdMounter
+2025-01-23 12:16:22.738 Info App: Disposing BlurayMounter
+2025-01-23 12:16:22.738 Info App: Disposing OpenSubtitleDownloader
+2025-01-23 12:16:22.738 Info App: Disposing HauppaugeTunerWindows
+2025-01-23 12:16:22.738 Info App: Disposing UIPagesManager
+2025-01-23 12:16:22.738 Info App: Disposing EncodingManager
+2025-01-23 12:16:22.739 Info App: Disposing ActivityRepository
+2025-01-23 12:16:22.740 Info ActivityRepository: DisposeConnection
+2025-01-23 12:16:22.740 Info ActivityRepository: PRAGMA analysis_limit=400;PRAGMA optimize
+2025-01-23 12:16:22.740 Info ActivityRepository: Closing sqlite connection
+2025-01-23 12:16:22.741 Info App: Disposing MediaEncoder
+2025-01-23 12:16:22.741 Info App: Disposing SsdpDevicePublisher
+2025-01-23 12:16:22.743 Info App: Disposing SsdpCommunicationsServer
+2025-01-23 12:16:22.744 Info App: SsdpCommunicationsServer Disposing 4 sendSockets
+2025-01-23 12:16:22.744 Info App: SsdpCommunicationsServer disposing sendSocket from 0.0.0.0:1900
+2025-01-23 12:16:22.744 Info App: SsdpCommunicationsServer disposing sendSocket from 0.0.0.0:44726
+2025-01-23 12:16:22.744 Info App: SsdpCommunicationsServer disposing sendSocket from 172.18.0.2:46220
+2025-01-23 12:16:22.744 Info App: SsdpCommunicationsServer disposing sendSocket from 127.0.0.1:34480
+2025-01-23 12:16:22.744 Info App: Disposing NotificationManager
+2025-01-23 12:16:22.745 Info App: Disposing LiveTvManager
+2025-01-23 12:16:22.745 Info App: Disposing SessionManager
+2025-01-23 12:16:22.747 Info App: Disposing ProviderManager
+2025-01-23 12:16:22.747 Info App: Disposing MediaSourceManager
+2025-01-23 12:16:22.747 Info App: Disposing ImageProcessor
+2025-01-23 12:16:22.748 Info App: Disposing ProcessManager
+2025-01-23 12:16:22.749 Info App: Disposing HttpListenerHost
+2025-01-23 12:16:22.749 Info Server: Stopping HttpListener...
+2025-01-23 12:16:22.749 Info Server: HttpListener stopped
+2025-01-23 12:16:22.749 Info App: Disposing LibraryMonitor
+2025-01-23 12:16:22.750 Info LibraryMonitor: Stopping directory watching for path /data/Series
+2025-01-23 12:16:22.750 Info App: Disposing AuthenticationRepository
+2025-01-23 12:16:22.750 Info AuthenticationRepository: DisposeConnection
+2025-01-23 12:16:22.750 Info AuthenticationRepository: PRAGMA analysis_limit=400;PRAGMA optimize
+2025-01-23 12:16:22.751 Info AuthenticationRepository: Closing sqlite connection
+2025-01-23 12:16:22.757 Info App: Disposing SqliteUserDataRepository
+2025-01-23 12:16:22.757 Info SqliteUserDataRepository: DisposeConnection
+2025-01-23 12:16:22.757 Info App: Disposing SqliteItemRepository
+2025-01-23 12:16:22.757 Info SqliteItemRepository: DisposeConnection
+2025-01-23 12:16:22.757 Info SqliteItemRepository: PRAGMA analysis_limit=400;PRAGMA optimize
+2025-01-23 12:16:22.764 Info SqliteItemRepository: Closing sqlite connection
+2025-01-23 12:16:22.776 Info App: Disposing SqliteUserRepository
+2025-01-23 12:16:22.776 Info SqliteUserRepository: DisposeConnection
+2025-01-23 12:16:22.776 Info SqliteUserRepository: PRAGMA analysis_limit=400;PRAGMA optimize
+2025-01-23 12:16:22.776 Info SqliteUserRepository: Closing sqlite connection
+2025-01-23 12:16:22.782 Info App: Disposing InstallationManager
+2025-01-23 12:16:22.783 Info App: Disposing TaskManager
+2025-01-23 12:16:22.784 Info App: Disposing MediaMountManager
+2025-01-23 12:16:22.784 Info App: Dispose complete
+2025-01-23 12:16:22.819 Info Main: Shutdown complete

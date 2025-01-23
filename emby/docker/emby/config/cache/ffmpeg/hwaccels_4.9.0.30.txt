@@ -1,0 +1,8 @@
+﻿Hardware acceleration methods:
+cuda
+vaapi
+qsv
+drm
+opencl
+
+

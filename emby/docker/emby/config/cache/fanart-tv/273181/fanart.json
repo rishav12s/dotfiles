@@ -1,0 +1,877 @@
+{
+    "name": "Better Call Saul",
+    "thetvdb_id": "273181",
+    "hdtvlogo": [
+        {
+            "id": "48245",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/hdtvlogo/better-call-saul-54d919c52ad7c.png",
+            "lang": "en",
+            "likes": "25"
+        },
+        {
+            "id": "43006",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/hdtvlogo/better-call-saul-53e92b2e23744.png",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "43007",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/hdtvlogo/better-call-saul-53e92b4288ae8.png",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "43008",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/hdtvlogo/better-call-saul-53e92b4e827f2.png",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "48387",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/hdtvlogo/better-call-saul-54ddfdeea4153.png",
+            "lang": "ru",
+            "likes": "3"
+        },
+        {
+            "id": "110487",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/hdtvlogo/better-call-saul-5e7ed7c4520ab.png",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "110791",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/hdtvlogo/better-call-saul-5e8c9e645a230.png",
+            "lang": "ru",
+            "likes": "3"
+        },
+        {
+            "id": "81626",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/hdtvlogo/better-call-saul-5a5d76214ec6c.png",
+            "lang": "ru",
+            "likes": "2"
+        },
+        {
+            "id": "117450",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/hdtvlogo/better-call-saul-5f69d7c62e96f.png",
+            "lang": "en",
+            "likes": "2"
+        },
+        {
+            "id": "189115",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/hdtvlogo/better-call-saul-663e029a04ed2.png",
+            "lang": "zh",
+            "likes": "2"
+        },
+        {
+            "id": "189116",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/hdtvlogo/better-call-saul-663e029b9f0c2.png",
+            "lang": "zh",
+            "likes": "2"
+        },
+        {
+            "id": "172587",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/hdtvlogo/better-call-saul-6495655fd4ab7.png",
+            "lang": "pl",
+            "likes": "0"
+        }
+    ],
+    "tvposter": [
+        {
+            "id": "48248",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvposter/better-call-saul-54d91da86c07d.jpg",
+            "lang": "en",
+            "likes": "11"
+        },
+        {
+            "id": "47128",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvposter/better-call-saul-54a6dbf30dbcd.jpg",
+            "lang": "en",
+            "likes": "8"
+        },
+        {
+            "id": "48250",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvposter/better-call-saul-54d921c4694cf.jpg",
+            "lang": "en",
+            "likes": "6"
+        },
+        {
+            "id": "50909",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvposter/better-call-saul-552437934efec.jpg",
+            "lang": "en",
+            "likes": "5"
+        },
+        {
+            "id": "82842",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvposter/better-call-saul-5a949414c7c79.jpg",
+            "lang": "pl",
+            "likes": "5"
+        },
+        {
+            "id": "47127",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvposter/better-call-saul-54a6dad7dc672.jpg",
+            "lang": "en",
+            "likes": "4"
+        },
+        {
+            "id": "146208",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvposter/better-call-saul-622bbb8ea30cb.jpg",
+            "lang": "00",
+            "likes": "4"
+        },
+        {
+            "id": "154266",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvposter/better-call-saul-62fc30958983c.jpg",
+            "lang": "en",
+            "likes": "4"
+        },
+        {
+            "id": "50911",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvposter/better-call-saul-55243c3f8a974.jpg",
+            "lang": "00",
+            "likes": "3"
+        },
+        {
+            "id": "58305",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvposter/better-call-saul-564071b6373c8.jpg",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "58429",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvposter/better-call-saul-5646e2ced7914.jpg",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "58436",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvposter/better-call-saul-56485ae4106aa.jpg",
+            "lang": "00",
+            "likes": "3"
+        },
+        {
+            "id": "59560",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvposter/better-call-saul-568bf9f9e8f34.jpg",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "60144",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvposter/better-call-saul-56a7001390c65.jpg",
+            "lang": "00",
+            "likes": "3"
+        },
+        {
+            "id": "73187",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvposter/better-call-saul-58ca202b41981.jpg",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "74232",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvposter/better-call-saul-58f21b4dedbdc.jpg",
+            "lang": "00",
+            "likes": "3"
+        },
+        {
+            "id": "87216",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvposter/better-call-saul-5b72418ac9a7e.jpg",
+            "lang": "00",
+            "likes": "3"
+        },
+        {
+            "id": "109148",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvposter/better-call-saul-5e55427cae8e6.jpg",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "117427",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvposter/better-call-saul-5f690026f1df7.jpg",
+            "lang": "00",
+            "likes": "2"
+        },
+        {
+            "id": "86148",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvposter/better-call-saul-5b388e9db1b81.jpg",
+            "lang": "en",
+            "likes": "1"
+        }
+    ],
+    "showbackground": [
+        {
+            "id": "48251",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-54d927c0aa717.jpg",
+            "lang": "",
+            "likes": "11",
+            "season": "all"
+        },
+        {
+            "id": "48252",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-54d927e86ae11.jpg",
+            "lang": "",
+            "likes": "9",
+            "season": "all"
+        },
+        {
+            "id": "48255",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-54d92c5c41f30.jpg",
+            "lang": "",
+            "likes": "6",
+            "season": "all"
+        },
+        {
+            "id": "41944",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-53c06ee3eb8e7.jpg",
+            "lang": "",
+            "likes": "3",
+            "season": "all"
+        },
+        {
+            "id": "58428",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5646da6ae18d9.jpg",
+            "lang": "",
+            "likes": "3",
+            "season": "all"
+        },
+        {
+            "id": "83176",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5a9ecfba0d2b9.jpg",
+            "lang": "",
+            "likes": "3",
+            "season": "all"
+        },
+        {
+            "id": "83177",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5a9ecfba16d56.jpg",
+            "lang": "",
+            "likes": "3",
+            "season": "all"
+        },
+        {
+            "id": "83179",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5a9ecff62e945.jpg",
+            "lang": "",
+            "likes": "3",
+            "season": "all"
+        },
+        {
+            "id": "83181",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5a9ecff641612.jpg",
+            "lang": "",
+            "likes": "3",
+            "season": "all"
+        },
+        {
+            "id": "83182",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5a9ecff658195.jpg",
+            "lang": "",
+            "likes": "3",
+            "season": "all"
+        },
+        {
+            "id": "83183",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5a9ecff66dfae.jpg",
+            "lang": "",
+            "likes": "3",
+            "season": "all"
+        },
+        {
+            "id": "83184",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5a9ecff67c4d8.jpg",
+            "lang": "",
+            "likes": "3",
+            "season": "all"
+        },
+        {
+            "id": "83185",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5a9ecff688d7c.jpg",
+            "lang": "",
+            "likes": "3",
+            "season": "all"
+        },
+        {
+            "id": "83192",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5a9ed0c285084.jpg",
+            "lang": "",
+            "likes": "3",
+            "season": "all"
+        },
+        {
+            "id": "148582",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-6261c36926153.jpg",
+            "lang": "",
+            "likes": "3",
+            "season": "6"
+        },
+        {
+            "id": "48511",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-54e4a9dacce25.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "all"
+        },
+        {
+            "id": "58425",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5646da44cd691.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "all"
+        },
+        {
+            "id": "58426",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5646da4f6bf70.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "all"
+        },
+        {
+            "id": "60149",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-56a70610bcf9e.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "2"
+        },
+        {
+            "id": "74234",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-58f21b7709f9a.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "3"
+        },
+        {
+            "id": "74787",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5908e8ea5419f.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "3"
+        },
+        {
+            "id": "83123",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5a9d13b5a8da6.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "all"
+        },
+        {
+            "id": "83124",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5a9d13eca4bb2.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "all"
+        },
+        {
+            "id": "83126",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5a9d13ed03746.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "all"
+        },
+        {
+            "id": "83127",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5a9d13ed10a81.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "all"
+        },
+        {
+            "id": "83129",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5a9d13ed21495.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "all"
+        },
+        {
+            "id": "83131",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5a9d13ed3f762.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "all"
+        },
+        {
+            "id": "83132",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5a9d13ed494bc.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "all"
+        },
+        {
+            "id": "83133",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5a9d13ed5039d.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "all"
+        },
+        {
+            "id": "83134",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5a9d13ed572e6.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "all"
+        },
+        {
+            "id": "83135",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5a9d140f367fe.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "all"
+        },
+        {
+            "id": "83180",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5a9ecff6397c1.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "all"
+        },
+        {
+            "id": "83187",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5a9ecff6a06d7.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "all"
+        },
+        {
+            "id": "83191",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5a9ed0c2769e9.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "all"
+        },
+        {
+            "id": "117429",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-5f69008096f62.jpg",
+            "lang": "",
+            "likes": "2",
+            "season": "5"
+        },
+        {
+            "id": "186261",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/showbackground/better-call-saul-65b02ed613408.jpg",
+            "lang": "",
+            "likes": "1",
+            "season": "4"
+        }
+    ],
+    "tvbanner": [
+        {
+            "id": "47301",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvbanner/better-call-saul-54acebcb1684c.jpg",
+            "lang": "en",
+            "likes": "10"
+        },
+        {
+            "id": "82843",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvbanner/better-call-saul-5a94942eca445.jpg",
+            "lang": "pl",
+            "likes": "4"
+        },
+        {
+            "id": "58536",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvbanner/better-call-saul-564dbb8a78249.jpg",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "60054",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvbanner/better-call-saul-56a26c0b6ea90.jpg",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "48472",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvbanner/better-call-saul-54e2966aed6ca.jpg",
+            "lang": "ru",
+            "likes": "0"
+        },
+        {
+            "id": "60912",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvbanner/better-call-saul-56be18e6d8d4f.jpg",
+            "lang": "en",
+            "likes": "0"
+        },
+        {
+            "id": "60913",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvbanner/better-call-saul-56be19259be8d.jpg",
+            "lang": "en",
+            "likes": "0"
+        },
+        {
+            "id": "74235",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvbanner/better-call-saul-58f21b8145ffb.jpg",
+            "lang": "en",
+            "likes": "0"
+        }
+    ],
+    "seasonposter": [
+        {
+            "id": "50543",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonposter/better-call-saul-551d95591e01b.jpg",
+            "lang": "en",
+            "likes": "7",
+            "season": "1"
+        },
+        {
+            "id": "73234",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonposter/better-call-saul-58cd14c57efa1.jpg",
+            "lang": "en",
+            "likes": "5",
+            "season": "1"
+        },
+        {
+            "id": "73235",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonposter/better-call-saul-58cd14d6ecd8f.jpg",
+            "lang": "en",
+            "likes": "5",
+            "season": "2"
+        },
+        {
+            "id": "73236",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonposter/better-call-saul-58cd14e2d09b7.jpg",
+            "lang": "en",
+            "likes": "5",
+            "season": "3"
+        },
+        {
+            "id": "48029",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonposter/better-call-saul-54cabeec5ebd4.jpg",
+            "lang": "en",
+            "likes": "4",
+            "season": "1"
+        },
+        {
+            "id": "86147",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonposter/better-call-saul-5b388e8d8e503.jpg",
+            "lang": "en",
+            "likes": "3",
+            "season": "4"
+        },
+        {
+            "id": "61144",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonposter/better-call-saul-56c394608c62a.jpg",
+            "lang": "en",
+            "likes": "2",
+            "season": "2"
+        },
+        {
+            "id": "148505",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonposter/better-call-saul-6260d0db87892.jpg",
+            "lang": "en",
+            "likes": "2",
+            "season": "6"
+        },
+        {
+            "id": "81627",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonposter/better-call-saul-5a5d76454f685.jpg",
+            "lang": "ru",
+            "likes": "1",
+            "season": "1"
+        },
+        {
+            "id": "83529",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonposter/better-call-saul-5ab394f9dbf08.jpg",
+            "lang": "it",
+            "likes": "1",
+            "season": "1"
+        },
+        {
+            "id": "83530",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonposter/better-call-saul-5ab3952dc008c.jpg",
+            "lang": "it",
+            "likes": "1",
+            "season": "2"
+        },
+        {
+            "id": "83531",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonposter/better-call-saul-5ab39562ddcff.jpg",
+            "lang": "it",
+            "likes": "1",
+            "season": "3"
+        },
+        {
+            "id": "93128",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonposter/better-call-saul-5c63d0c1d9f03.jpg",
+            "lang": "it",
+            "likes": "1",
+            "season": "4"
+        },
+        {
+            "id": "109143",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonposter/better-call-saul-5e544d42a4cbc.jpg",
+            "lang": "it",
+            "likes": "1",
+            "season": "5"
+        },
+        {
+            "id": "54108",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonposter/better-call-saul-558e6eec5ac4d.jpg",
+            "lang": "fr",
+            "likes": "0",
+            "season": "1"
+        },
+        {
+            "id": "81628",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonposter/better-call-saul-5a5d766ed75d1.jpg",
+            "lang": "ru",
+            "likes": "0",
+            "season": "2"
+        },
+        {
+            "id": "81629",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonposter/better-call-saul-5a5d769372299.jpg",
+            "lang": "ru",
+            "likes": "0",
+            "season": "3"
+        },
+        {
+            "id": "109013",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonposter/better-call-saul-5e510d367e1e3.jpg",
+            "lang": "en",
+            "likes": "0",
+            "season": "5"
+        },
+        {
+            "id": "119691",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonposter/better-call-saul-5fa01f4baf98f.jpg",
+            "lang": "it",
+            "likes": "0",
+            "season": "5"
+        }
+    ],
+    "characterart": [
+        {
+            "id": "74792",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/characterart/better-call-saul-5909b1c22a8f7.png",
+            "lang": "en",
+            "likes": "6"
+        },
+        {
+            "id": "65791",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/characterart/better-call-saul-57f614262b830.png",
+            "lang": "en",
+            "likes": "4"
+        },
+        {
+            "id": "195925",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/characterart/better-call-saul-6751ec9a522c6.png",
+            "lang": "en",
+            "likes": "0"
+        }
+    ],
+    "hdclearart": [
+        {
+            "id": "75434",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/hdclearart/better-call-saul-5925104da42ca.png",
+            "lang": "en",
+            "likes": "6"
+        },
+        {
+            "id": "75435",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/hdclearart/better-call-saul-5925104da4834.png",
+            "lang": "en",
+            "likes": "5"
+        },
+        {
+            "id": "48998",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/hdclearart/better-call-saul-54f5f3feafb8a.png",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "75430",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/hdclearart/better-call-saul-5925104da2c8a.png",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "75436",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/hdclearart/better-call-saul-5925104da4dd7.png",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "75427",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/hdclearart/better-call-saul-5925104da1bcc.png",
+            "lang": "en",
+            "likes": "2"
+        },
+        {
+            "id": "75428",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/hdclearart/better-call-saul-5925104da2254.png",
+            "lang": "en",
+            "likes": "2"
+        },
+        {
+            "id": "75429",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/hdclearart/better-call-saul-5925104da26e6.png",
+            "lang": "en",
+            "likes": "2"
+        },
+        {
+            "id": "75431",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/hdclearart/better-call-saul-5925104da324e.png",
+            "lang": "en",
+            "likes": "2"
+        },
+        {
+            "id": "75432",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/hdclearart/better-call-saul-5925104da37d5.png",
+            "lang": "en",
+            "likes": "2"
+        },
+        {
+            "id": "75433",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/hdclearart/better-call-saul-5925104da3d4c.png",
+            "lang": "en",
+            "likes": "2"
+        }
+    ],
+    "tvthumb": [
+        {
+            "id": "48370",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvthumb/better-call-saul-54dce6bd340eb.jpg",
+            "lang": "en",
+            "likes": "5"
+        },
+        {
+            "id": "48338",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvthumb/better-call-saul-54dbb99e6ba5a.jpg",
+            "lang": "en",
+            "likes": "4"
+        },
+        {
+            "id": "186263",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvthumb/better-call-saul-65b0353441e09.jpg",
+            "lang": "en",
+            "likes": "4"
+        },
+        {
+            "id": "54459",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvthumb/better-call-saul-559aa6a1ba7ce.jpg",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "60544",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvthumb/better-call-saul-56b25847c6768.jpg",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "74233",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvthumb/better-call-saul-58f21b5b694f1.jpg",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "109471",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvthumb/better-call-saul-5e634700d732d.jpg",
+            "lang": "en",
+            "likes": "3"
+        },
+        {
+            "id": "117428",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvthumb/better-call-saul-5f690063d917e.jpg",
+            "lang": "en",
+            "likes": "2"
+        },
+        {
+            "id": "186262",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvthumb/better-call-saul-65b034e80b309.jpg",
+            "lang": "en",
+            "likes": "1"
+        },
+        {
+            "id": "172586",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/tvthumb/better-call-saul-6495654be32dc.jpg",
+            "lang": "pl",
+            "likes": "0"
+        }
+    ],
+    "seasonbanner": [
+        {
+            "id": "148507",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonbanner/better-call-saul-6260d11ebec85.jpg",
+            "lang": "en",
+            "likes": "2",
+            "season": "6"
+        },
+        {
+            "id": "171352",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonbanner/better-call-saul-64696a8e9764e.jpg",
+            "lang": "en",
+            "likes": "0",
+            "season": "1"
+        },
+        {
+            "id": "171353",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonbanner/better-call-saul-64696bdea5525.jpg",
+            "lang": "en",
+            "likes": "0",
+            "season": "2"
+        },
+        {
+            "id": "171354",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonbanner/better-call-saul-64696bec7cf4b.jpg",
+            "lang": "en",
+            "likes": "0",
+            "season": "3"
+        },
+        {
+            "id": "171355",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonbanner/better-call-saul-64696bfe5254b.jpg",
+            "lang": "en",
+            "likes": "0",
+            "season": "4"
+        },
+        {
+            "id": "171356",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonbanner/better-call-saul-64696c0a5d616.jpg",
+            "lang": "en",
+            "likes": "0",
+            "season": "5"
+        }
+    ],
+    "seasonthumb": [
+        {
+            "id": "148508",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonthumb/better-call-saul-6260d19a035f9.jpg",
+            "lang": "en",
+            "likes": "2",
+            "season": "6"
+        },
+        {
+            "id": "115322",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonthumb/better-call-saul-5f21982168871.jpg",
+            "lang": "en",
+            "likes": "0",
+            "season": "1"
+        },
+        {
+            "id": "115323",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonthumb/better-call-saul-5f2198362470c.jpg",
+            "lang": "en",
+            "likes": "0",
+            "season": "2"
+        },
+        {
+            "id": "115324",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonthumb/better-call-saul-5f2198485403e.jpg",
+            "lang": "en",
+            "likes": "0",
+            "season": "3"
+        },
+        {
+            "id": "115325",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonthumb/better-call-saul-5f21985a2687d.jpg",
+            "lang": "en",
+            "likes": "0",
+            "season": "4"
+        },
+        {
+            "id": "115326",
+            "url": "https://assets.fanart.tv/fanart/tv/273181/seasonthumb/better-call-saul-5f21986a9228a.jpg",
+            "lang": "en",
+            "likes": "0",
+            "season": "5"
+        }
+    ]
+}

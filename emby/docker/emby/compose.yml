@@ -1,0 +1,29 @@
+services:
+  emby:
+      build: ./server
+      container_name: emby
+      environment:
+        - PUID=1000
+        - PGID=1000
+        - TZ=Asia/Kolkata
+      volumes:
+        - ./config:/config
+        - /home/rishav/Media/Anime:/data/Anime
+        - /home/rishav/Media/Anime-Movies:/data/Anime-Movies
+        - /home/rishav/Media/Anime-Recut:/data/Anime-Recut
+        - /home/rishav/Media/Series:/data/Series
+        - /home/rishav/Media/Movies:/data/Movies
+      ports:
+        - 8096:8096
+        - 8920:8920 #optional
+      restart: unless-stopped
+  mb3admin:
+      build: ./mb3admin
+      container_name: mb3admin
+      ports:
+        - 443:443
+      restart: unless-stopped
+      networks:
+        default:
+          aliases:
+            - mb3admin.com
