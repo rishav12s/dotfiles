@@ -23,7 +23,7 @@
     "hyprland/window",
     "custom/wf-recorder"
   ],
-  "modules-center": ["mpris"],
+  "modules-center": ["custom/music"],
   "modules-right": [
     "custom/updates",
     "custom/weather",
