@@ -1,5 +1,5 @@
 <h1 align="center">
-   <img src="./assets/category-images/logo-dots.png" width="20px" />
+   <img src="./assets/category-images/logo-dots.png" width="100px" />
    <br>
       dotfiles
    <br>
