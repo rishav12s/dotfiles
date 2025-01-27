@@ -1,3 +1,9 @@
+<h1 align="center">
+   <img src="./assets/category-images/logo-dots.png" width="20px" />
+   <br>
+      dotfiles
+   <br>
+
 <div align="center">
 <a href="#"><img src="./assets/category-images/dotfiles-title.png"></a>
 </div>
