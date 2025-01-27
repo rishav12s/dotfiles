@@ -1,7 +1,3 @@
-<h1 align="center">
-   <img src="./assets/category-images/logo-dots.png" width="100px" />
-</div>
-
 <div align="center">
 <a href="#"><img src="./assets/category-images/dotfiles-title.png"></a>
 </div>
@@ -29,9 +25,9 @@
 
 <br>
 
+</div>
+
+<br>
+
 > [!NOTE]
 > All the information about the Dotfiles is on the documentation website: https://dotfiles-docs.vercel.app/
-
-## Credits
-
-Just my personal configs based on this amazing dotfiles repo: https://github.com/Matt-FTW/dotfiles
