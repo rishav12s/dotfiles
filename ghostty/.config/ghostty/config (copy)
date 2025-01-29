@@ -1,0 +1,90 @@
+command = /usr/bin/fish --login --interactive
+font-family = "JetBrainsMono Nerd Font"
+font-size = 11.5
+font-thicken = true
+theme = catppuccin-macchiato
+shell-integration-features = no-cursor,sudo,no-title
+adjust-cell-height = 35%
+cursor-style = bar
+cursor-style-blink = true
+
+mouse-hide-while-typing = true
+mouse-scroll-multiplier = 2
+
+window-padding-balance = true
+window-save-state = always
+#macos-titlebar-style=transparent
+window-colorspace = "srgb"
+
+# keybindings
+keybind = cmd+s>r=reload_config
+keybind = cmd+s>x=close_surface
+
+keybind = cmd+s>n=new_window
+
+# tabs
+keybind = cmd+s>c=new_tab
+keybind = cmd+s>shift+l=next_tab
+keybind = cmd+s>shift+h=previous_tab
+keybind = cmd+s>comma=move_tab:-1
+keybind = cmd+s>period=move_tab:1
+
+# quick tab switch
+keybind = cmd+s>1=goto_tab:1
+keybind = cmd+s>2=goto_tab:2
+keybind = cmd+s>3=goto_tab:3
+keybind = cmd+s>4=goto_tab:4
+keybind = cmd+s>5=goto_tab:5
+keybind = cmd+s>6=goto_tab:6
+keybind = cmd+s>7=goto_tab:7
+keybind = cmd+s>8=goto_tab:8
+keybind = cmd+s>9=goto_tab:9
+
+# split
+keybind = cmd+s>\=new_split:right
+keybind = cmd+s>-=new_split:down
+
+keybind = cmd+s>j=goto_split:bottom
+keybind = cmd+s>k=goto_split:top
+keybind = cmd+s>h=goto_split:left
+keybind = cmd+s>l=goto_split:right
+
+keybind = cmd+s>z=toggle_split_zoom
+
+keybind = cmd+s>e=equalize_splits
+
+# other
+copy-on-select = clipboard
+
+
+
+
+
+
+bold-is-bright = true
+adjust-box-thickness = 1
+
+    # Theme
+#background-opacity = 0.9
+
+
+adjust-cursor-thickness = 1
+
+    resize-overlay = never
+    copy-on-select = false
+    confirm-close-surface = false
+    mouse-hide-while-typing = true
+
+    window-theme = ghostty
+    window-padding-x = 4
+    window-padding-y = 6
+    window-padding-balance = true
+    window-padding-color = background
+    window-inherit-working-directory = true
+    window-inherit-font-size = true
+    window-decoration = false
+
+    gtk-titlebar = false
+    gtk-single-instance = true
+    gtk-tabs-location = bottom
+    gtk-wide-tabs = false

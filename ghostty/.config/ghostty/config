@@ -1,0 +1,41 @@
+
+    command = /sbin/fish --login --interactive
+    shell-integration = fish
+    shell-integration-features = no-cursor,sudo,no-title
+    # Font
+    font-family = JetBrainsMono Nerd Font
+    font-size = 14
+    font-thicken = true
+
+    bold-is-bright = false
+    adjust-box-thickness = 1
+
+    # Theme
+    theme = "catppuccin-macchiato"
+    #background-opacity = 0.9
+
+    cursor-style = bar
+    cursor-style-blink = true
+    adjust-cursor-thickness = 1
+    keybind = ctrl+d=new_split:right
+    keybind = ctrl+f=new_split:down
+    resize-overlay = never
+    copy-on-select = false
+    confirm-close-surface = false
+    mouse-hide-while-typing = true
+
+    window-theme = ghostty
+    window-padding-x = 4
+    window-padding-y = 6
+    window-padding-balance = true
+    window-padding-color = background
+    window-inherit-working-directory = true
+    window-inherit-font-size = true
+    window-decoration = false
+
+    gtk-titlebar = false
+    gtk-single-instance = true
+    gtk-tabs-location = bottom
+    gtk-wide-tabs = false
+
+    auto-update = off
