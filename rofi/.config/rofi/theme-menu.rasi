@@ -1,0 +1,14 @@
+/*
+  bg - background
+  fg - foreground
+  br - border
+*/
+
+* {
+  main-bg:        rgba(36, 39, 58, 0.9);
+  main-fg:        #cad3f5;
+  main-br:        rgba(183, 189, 248, 0.4);
+  input-bg:       #363a4f;
+  select-bg:      #B7BDF8;
+  select-fg:      #24273a;
+}

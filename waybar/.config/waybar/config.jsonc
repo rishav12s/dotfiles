@@ -2,6 +2,7 @@
   {
     "include": "~/.config/waybar/bars/bar-1.jsonc",
     "height": 44,
+    "position": "top",
     "layer": "top",
     "output": "eDP-1",
     "mode": "dock",
@@ -15,7 +16,7 @@
   },
   {
     "include": "~/.config/waybar/bars/bar-2.jsonc",
-    "height": 50,
+    "height": 44,
     "position": "bottom",
     "layer": "top",
     "output": "eDP-2",

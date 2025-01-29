@@ -13,6 +13,7 @@
     "~/.config/waybar/modules/battery.jsonc",
     "~/.config/waybar/modules/tray.jsonc",
     "~/.config/waybar/modules/network.jsonc",
+    "~/.config/waybar/modules/bluetooth.jsonc",
     "~/.config/waybar/modules/mpris.jsonc",
     "~/.config/waybar/modules/hyprland-window.jsonc"
   ],
@@ -28,6 +29,7 @@
     "custom/updates",
     "custom/weather",
     "clock#cl1",
+    "bluetooth",
     "network",
     "pulseaudio",
     "custom/notifications",
