@@ -1,0 +1,13 @@
+export QT_QPA_PLATFORM=wayland
+export QT_QPA_PLATFORMTHEME=qt5ct
+export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+export QT_AUTO_SCREEN_SCALE_FACTOR=1
+
+export MOZ_ENABLE_WAYLAND=1
+export GDK_BACKEND=wayland
+export GDK_SCALE=1
+
+export XCURSOR_THEME=Bibata-Modern-Ice
+export XCURSOR_SIZE=24
+
+export GTK_THEME=Catppuccin-Macchiato

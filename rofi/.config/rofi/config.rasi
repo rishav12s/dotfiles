@@ -44,7 +44,7 @@ configuration {
   }
 
   // Run settings
-  run-command: "{cmd}";
+  run-command: "uwsm app -- {cmd}";
   run-list-command: "";
   run-shell-command: "{terminal} -e {cmd}";
 

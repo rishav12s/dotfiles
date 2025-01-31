@@ -1,38 +1,38 @@
 #!/bin/bash
 
 # Automounter for removable media
-udiskie &
+uwsm app -- udiskie &
 
 # Wallpaper Backend
-swww-daemon --format xrgb &
+uwsm app -- swww-daemon --format xrgb &
 
 # Pyprland Daemon
-pypr --debug /tmp/pypr.log &
+uwsm app -- pypr --debug /tmp/pypr.log &
 
 # Bar
-waybar &
+uwsm app -- waybar &
 
 # Notification Daemon
-swaync &
+uwsm app -- swaync &
 
 # OSD Window
-swayosd-server &
+uwsm app -- swayosd-server &
 
 # Notify about devices connecting and disconnecting
-#devify &
+# uwsm app -- devify &  # Uncomment if you want to enable it
 
 # Idle daemon to screen lock
-hypridle &
+uwsm app -- hypridle &
 
 # Clipboard
-wl-paste --watch cliphist store &
+uwsm app -- wl-paste --watch cliphist store &
 
 # Polkit authentication
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+uwsm app -- /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 # Screen sharing and portals
-"$HOME"/.config/hypr/portal &
-# xwaylandvideobridge & # Off when using Vesktop instead of Discord
+#uwsm app -- "$HOME"/.config/hypr/portal &
+# uwsm app -- xwaylandvideobridge & # Off when using Vesktop instead of Discord
 
 # Audio
-easyeffects --gapplication-service &
+#uwsm app -- easyeffects --gapplication-service &

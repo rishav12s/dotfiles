@@ -10,5 +10,5 @@ if ! command -v "$program" >/dev/null 2>&1; then
   notify-send "Program not found" "Make sure you have installed $program"
   exit 1
 else
-  exec $program
+  exec uwsm app -- $program
 fi

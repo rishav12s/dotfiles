@@ -1,4 +1,4 @@
-function fetch --wraps=fastfetch --description 'alias fetch=fastfetch --logo-type kitty'
+function fetch --wraps=fastfetch --description 'alias fetch=fastfetch'
     if type -f fastfetch &>/dev/null
         fastfetch --logo-type kitty $argv
     else

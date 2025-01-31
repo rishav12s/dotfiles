@@ -91,4 +91,3 @@ alias nf='neofetch'
 alias pc='yay -Sc' # remove unused cache
 alias po='yay -Qtdq | yay -Rns -' # remove unused packages, also try > $aurhelper -Qqd | $aurhelper -Rsu --print -
 alias mirror='sudo reflector --verbose -c "India" --latest 10 --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist'
-alias code='codium'
