@@ -3,7 +3,7 @@
     shell-integration = fish
     shell-integration-features = no-cursor,sudo,no-title
     # Font
-    font-family = JetBrainsMono Nerd Font
+    font-family = CaskaydiaCove Nerd Font
     font-size = 14
     font-thicken = true
 
