@@ -23,7 +23,7 @@
   "transition-time": 200,
   "hide-on-clear": false,
   "hide-on-action": true,
-  "widgets": ["title","notifications", "mpris"],
+  "widgets": ["title","notifications","mpris"],
   "widget-config": {
     "title": {
       "text": "Notifications",
