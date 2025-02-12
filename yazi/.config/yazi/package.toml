@@ -1,13 +1,37 @@
-[plugin]
-deps = [
-  { use = "yazi-rs/plugins:full-border", rev = "7707c09" },
-  { use = "KKV9/compress", rev = "60b24af" },
-  { use = "imsi32/yatline", rev = "9328205" },
-  { use = "imsi32/yatline-githead", rev = "a6377a8" },
-  { use = "yazi-rs/plugins:smart-filter", rev = "7707c09" },
-  { use = "yazi-rs/plugins:hide-preview", rev = "7707c09" },
-  { use = "yazi-rs/plugins:git", rev = "7707c09" },
-]
+[[plugin.deps]]
+use = "yazi-rs/plugins:full-border"
+rev = "8945e54"
+hash = "ae9e1d0c6bfd68cdebc98cc684c22b45"
+
+[[plugin.deps]]
+use = "KKV9/compress"
+rev = "60b24af"
+hash = "ee025be766240cc98e671754ac836da3"
+
+[[plugin.deps]]
+use = "imsi32/yatline"
+rev = "9328205"
+hash = "3e51d1fd8a2e481fcfa8eab1251d1c5f"
+
+[[plugin.deps]]
+use = "imsi32/yatline-githead"
+rev = "a6377a8"
+hash = "4f1a71eff1dd8f245ae2e3985e3e2f91"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:smart-filter"
+rev = "8945e54"
+hash = "b482f4f2d3c4e0aa3f8db89a95699439"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:hide-preview"
+rev = "8945e54"
+hash = "55904f17e1053cfb91dacd9015a99f9d"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:git"
+rev = "8945e54"
+hash = "771f18427fb75fb19990ce602bb322f4"
 
 [flavor]
 deps = []
