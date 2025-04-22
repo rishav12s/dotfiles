@@ -8,7 +8,7 @@
     bg1:  #292c3c;
     bg2:  #cad3f520;
     bg3:  #cad3f540;
-    bg4:  #939ab7;
+    bg4:  #5b6078;
 
     fg0:  #cad3f5;
     fg1:  #cad3f580;
@@ -22,7 +22,7 @@
 window {
   fullscreen: true;
   padding: 1em;
-  background-color: rgba(24, 24, 37, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 mainbox {
